@@ -2,7 +2,7 @@
 Imports MySql.Data
 
 Public Class Clase_Conexion
-    Public conn As New MySqlConnection("server=localhost;" & "user id=root;")
+    Public conn As New MySqlConnection("server=localhost;user id=root;")
 
     Public Sub conectar()
         Try
