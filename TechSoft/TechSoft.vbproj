@@ -107,6 +107,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Capa Diseño\Crear Caso.resx">
+      <DependentUpon>Crear Caso.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Capa Diseño\Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>

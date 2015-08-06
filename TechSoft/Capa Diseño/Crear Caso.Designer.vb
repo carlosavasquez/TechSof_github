@@ -22,8 +22,18 @@ Partial Class Crear_Caso
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.SuspendLayout()
+        '
+        'Crear_Caso
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(561, 493)
+        Me.Name = "Crear_Caso"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Crear_Caso"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        Me.ResumeLayout(False)
+
     End Sub
 End Class

@@ -25,15 +25,15 @@ Partial Class Menu_Principal
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Menu_Principal))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CasosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btn_casos = New System.Windows.Forms.ToolStripMenuItem()
         Me.HerramientasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CambiarClaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InformesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.EquiposToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NuevoCasoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VerCasosPendientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EditarCasoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btn_nuevocaso = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btn_casospendientes = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btn_editarcaso = New System.Windows.Forms.ToolStripMenuItem()
         Me.NuevoClienteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditarClienteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NuevoEquipoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -43,7 +43,7 @@ Partial Class Menu_Principal
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ClientesToolStripMenuItem, Me.EquiposToolStripMenuItem, Me.CasosToolStripMenuItem, Me.HerramientasToolStripMenuItem, Me.InformesToolStripMenuItem, Me.CambiarClaveToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ClientesToolStripMenuItem, Me.EquiposToolStripMenuItem, Me.btn_casos, Me.HerramientasToolStripMenuItem, Me.InformesToolStripMenuItem, Me.CambiarClaveToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(762, 24)
@@ -57,12 +57,12 @@ Partial Class Menu_Principal
         Me.ClientesToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
         Me.ClientesToolStripMenuItem.Text = "Clientes"
         '
-        'CasosToolStripMenuItem
+        'btn_casos
         '
-        Me.CasosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoCasoToolStripMenuItem, Me.EditarCasoToolStripMenuItem, Me.VerCasosPendientesToolStripMenuItem})
-        Me.CasosToolStripMenuItem.Name = "CasosToolStripMenuItem"
-        Me.CasosToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
-        Me.CasosToolStripMenuItem.Text = "Casos"
+        Me.btn_casos.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btn_nuevocaso, Me.btn_editarcaso, Me.btn_casospendientes})
+        Me.btn_casos.Name = "btn_casos"
+        Me.btn_casos.Size = New System.Drawing.Size(50, 20)
+        Me.btn_casos.Text = "Casos"
         '
         'HerramientasToolStripMenuItem
         '
@@ -97,23 +97,23 @@ Partial Class Menu_Principal
         Me.EquiposToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
         Me.EquiposToolStripMenuItem.Text = "Equipos"
         '
-        'NuevoCasoToolStripMenuItem
+        'btn_nuevocaso
         '
-        Me.NuevoCasoToolStripMenuItem.Name = "NuevoCasoToolStripMenuItem"
-        Me.NuevoCasoToolStripMenuItem.Size = New System.Drawing.Size(186, 22)
-        Me.NuevoCasoToolStripMenuItem.Text = "Nuevo Caso"
+        Me.btn_nuevocaso.Name = "btn_nuevocaso"
+        Me.btn_nuevocaso.Size = New System.Drawing.Size(186, 22)
+        Me.btn_nuevocaso.Text = "Nuevo Caso"
         '
-        'VerCasosPendientesToolStripMenuItem
+        'btn_casospendientes
         '
-        Me.VerCasosPendientesToolStripMenuItem.Name = "VerCasosPendientesToolStripMenuItem"
-        Me.VerCasosPendientesToolStripMenuItem.Size = New System.Drawing.Size(186, 22)
-        Me.VerCasosPendientesToolStripMenuItem.Text = "Ver Casos Pendientes"
+        Me.btn_casospendientes.Name = "btn_casospendientes"
+        Me.btn_casospendientes.Size = New System.Drawing.Size(186, 22)
+        Me.btn_casospendientes.Text = "Ver Casos Pendientes"
         '
-        'EditarCasoToolStripMenuItem
+        'btn_editarcaso
         '
-        Me.EditarCasoToolStripMenuItem.Name = "EditarCasoToolStripMenuItem"
-        Me.EditarCasoToolStripMenuItem.Size = New System.Drawing.Size(186, 22)
-        Me.EditarCasoToolStripMenuItem.Text = "Editar Caso"
+        Me.btn_editarcaso.Name = "btn_editarcaso"
+        Me.btn_editarcaso.Size = New System.Drawing.Size(186, 22)
+        Me.btn_editarcaso.Text = "Editar Caso"
         '
         'NuevoClienteToolStripMenuItem
         '
@@ -160,7 +160,7 @@ Partial Class Menu_Principal
     End Sub
     Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
     Friend WithEvents ClientesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents CasosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents btn_casos As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents HerramientasToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents CambiarClaveToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents StatusStrip1 As System.Windows.Forms.StatusStrip
@@ -170,7 +170,7 @@ Partial Class Menu_Principal
     Friend WithEvents EditarClienteToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents NuevoEquipoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents EditarEquipoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents NuevoCasoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents EditarCasoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents VerCasosPendientesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents btn_nuevocaso As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents btn_editarcaso As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents btn_casospendientes As System.Windows.Forms.ToolStripMenuItem
 End Class
