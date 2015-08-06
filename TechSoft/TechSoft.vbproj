@@ -72,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Capa Datos\Clase Conexion.vb" />
+    <Compile Include="Capa Datos\Clase Login.vb" />
     <Compile Include="Capa Diseño\Crear Caso.Designer.vb">
       <DependentUpon>Crear Caso.vb</DependentUpon>
     </Compile>
