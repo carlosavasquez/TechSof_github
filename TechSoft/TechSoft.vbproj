@@ -73,10 +73,10 @@
   <ItemGroup>
     <Compile Include="Capa Datos\Clase Conexion.vb" />
     <Compile Include="Capa Datos\Clase Login.vb" />
-    <Compile Include="Capa Diseño\Crear Caso.Designer.vb">
-      <DependentUpon>Crear Caso.vb</DependentUpon>
+    <Compile Include="Capa Diseño\frmMSGctrl.designer.vb">
+      <DependentUpon>frmMSGctrl.vb</DependentUpon>
     </Compile>
-    <Compile Include="Capa Diseño\Crear Caso.vb">
+    <Compile Include="Capa Diseño\frmMSGctrl.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Capa Diseño\Login.Designer.vb">
@@ -108,8 +108,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Capa Diseño\Crear Caso.resx">
-      <DependentUpon>Crear Caso.vb</DependentUpon>
+    <EmbeddedResource Include="Capa Diseño\frmMSGctrl.resx">
+      <DependentUpon>frmMSGctrl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Capa Diseño\Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
