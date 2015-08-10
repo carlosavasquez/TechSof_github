@@ -79,6 +79,18 @@
     <Compile Include="Capa Diseño\Asignar Equipo.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Capa Diseño\Buscar Cliente.Designer.vb">
+      <DependentUpon>Buscar Cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Buscar Cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\Buscar Equipo.Designer.vb">
+      <DependentUpon>Buscar Equipo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Buscar Equipo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Capa Diseño\Crear Caso.Designer.vb">
       <DependentUpon>Crear Caso.vb</DependentUpon>
     </Compile>
@@ -122,6 +134,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Capa Diseño\Asignar Equipo.resx">
       <DependentUpon>Asignar Equipo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Buscar Cliente.resx">
+      <DependentUpon>Buscar Cliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Buscar Equipo.resx">
+      <DependentUpon>Buscar Equipo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Capa Diseño\Crear Caso.resx">
       <DependentUpon>Crear Caso.vb</DependentUpon>

@@ -22,11 +22,8 @@ Partial Class Asignar_Equipo
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btn_entrar = New System.Windows.Forms.Button()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
@@ -35,27 +32,10 @@ Partial Class Asignar_Equipo
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.btn_entrar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
-        '
-        'btn_entrar
-        '
-        Me.btn_entrar.BackColor = System.Drawing.Color.LightSeaGreen
-        Me.btn_entrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_entrar.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_entrar.Location = New System.Drawing.Point(291, 338)
-        Me.btn_entrar.Name = "btn_entrar"
-        Me.btn_entrar.Size = New System.Drawing.Size(104, 43)
-        Me.btn_entrar.TabIndex = 21
-        Me.btn_entrar.Text = "Guardar"
-        Me.btn_entrar.UseVisualStyleBackColor = False
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(167, 153)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(228, 29)
-        Me.TextBox4.TabIndex = 20
         '
         'TextBox3
         '
@@ -74,16 +54,6 @@ Partial Class Asignar_Equipo
         Me.Label4.Size = New System.Drawing.Size(73, 21)
         Me.Label4.TabIndex = 16
         Me.Label4.Text = "Servicio:"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(39, 161)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(92, 21)
-        Me.Label3.TabIndex = 15
-        Me.Label3.Text = "Referencia:"
         '
         'Label2
         '
@@ -162,6 +132,36 @@ Partial Class Asignar_Equipo
         Me.Label6.TabIndex = 26
         Me.Label6.Text = "Cliente:"
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(39, 161)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(92, 21)
+        Me.Label3.TabIndex = 15
+        Me.Label3.Text = "Referencia:"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.Location = New System.Drawing.Point(167, 153)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(228, 29)
+        Me.TextBox4.TabIndex = 20
+        '
+        'btn_entrar
+        '
+        Me.btn_entrar.BackColor = System.Drawing.Color.LightSeaGreen
+        Me.btn_entrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_entrar.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_entrar.Location = New System.Drawing.Point(291, 338)
+        Me.btn_entrar.Name = "btn_entrar"
+        Me.btn_entrar.Size = New System.Drawing.Size(104, 43)
+        Me.btn_entrar.TabIndex = 21
+        Me.btn_entrar.Text = "Guardar"
+        Me.btn_entrar.UseVisualStyleBackColor = False
+        '
         'Asignar_Equipo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -188,11 +188,8 @@ Partial Class Asignar_Equipo
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents btn_entrar As System.Windows.Forms.Button
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
@@ -201,4 +198,7 @@ Partial Class Asignar_Equipo
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
+    Friend WithEvents btn_entrar As System.Windows.Forms.Button
 End Class
