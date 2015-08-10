@@ -73,6 +73,18 @@
   <ItemGroup>
     <Compile Include="Capa Datos\Clase Conexion.vb" />
     <Compile Include="Capa Datos\Clase Login.vb" />
+    <Compile Include="Capa Diseño\Asignar Equipo.Designer.vb">
+      <DependentUpon>Asignar Equipo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Asignar Equipo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\Crear Caso.Designer.vb">
+      <DependentUpon>Crear Caso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Crear Caso.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Capa Diseño\frmMSGctrl.designer.vb">
       <DependentUpon>frmMSGctrl.vb</DependentUpon>
     </Compile>
@@ -108,6 +120,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Capa Diseño\Asignar Equipo.resx">
+      <DependentUpon>Asignar Equipo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Crear Caso.resx">
+      <DependentUpon>Crear Caso.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Capa Diseño\frmMSGctrl.resx">
       <DependentUpon>frmMSGctrl.vb</DependentUpon>
     </EmbeddedResource>
