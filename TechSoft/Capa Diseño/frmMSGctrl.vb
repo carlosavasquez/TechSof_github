@@ -11,7 +11,7 @@
         Me.ShowInTaskbar = False
         'Show_msg("Notice - School Hours Update", "Today School will finish at 2:30PM in preperation for Parent Teacher interviews." & vbCrLf & "Please remind your parents of their interview times.", MessageType.Information)
         'Show_msg("Message - Blocked Application", "The application ""VLC"" was terminated, it is not allowed during school hours.", MessageType.Warning)
-        Show_msg("Notificación de Caso", "El Caso Numero 1030,Ya a Sido Diagnosticado", MessageType.Notice)
+        Show_msg("Notificación de Caso", "Tiene 5 Casos Pendientes", MessageType.Notice)
         'Show_msg("Evacuate The School", "Fire Drill In Progress.", MessageType.RedAlert)
     End Sub
     Public Enum MessageType
@@ -30,10 +30,10 @@
                 'lbl_text.ForeColor = Color.Black
                 'lbl_title.ForeColor = Color.Black
             Case MessageType.Information
-                'left_pan_colour.BackColor = Color.YellowGreen
-                'main_pan_colour.BackColor = Color.Ivory
-                'lbl_text.ForeColor = Color.Black
-                'lbl_title.ForeColor = Color.Black
+
+                main_pan_colour.BackColor = Color.YellowGreen
+                lbl_text.ForeColor = Color.Black
+                lbl_title.ForeColor = Color.Black
             Case MessageType.Notice
                 left_pan_colour.BackColor = Color.SkyBlue
                 main_pan_colour.BackColor = Color.Azure

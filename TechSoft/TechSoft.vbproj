@@ -91,6 +91,18 @@
     <Compile Include="Capa Diseño\Buscar Equipo.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Capa Diseño\Cambiar Clave.Designer.vb">
+      <DependentUpon>Cambiar Clave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Cambiar Clave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\Cotizacion Nueva.Designer.vb">
+      <DependentUpon>Cotizacion Nueva.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Cotizacion Nueva.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Capa Diseño\Crear Caso.Designer.vb">
       <DependentUpon>Crear Caso.vb</DependentUpon>
     </Compile>
@@ -103,6 +115,12 @@
     <Compile Include="Capa Diseño\frmMSGctrl.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Capa Diseño\Informes.Designer.vb">
+      <DependentUpon>Informes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Informes.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Capa Diseño\Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
     </Compile>
@@ -113,6 +131,12 @@
       <DependentUpon>Menu Principal.vb</DependentUpon>
     </Compile>
     <Compile Include="Capa Diseño\Menu Principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Diseño\Notificaciones.Designer.vb">
+      <DependentUpon>Notificaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Notificaciones.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -141,17 +165,29 @@
     <EmbeddedResource Include="Capa Diseño\Buscar Equipo.resx">
       <DependentUpon>Buscar Equipo.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Cambiar Clave.resx">
+      <DependentUpon>Cambiar Clave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Cotizacion Nueva.resx">
+      <DependentUpon>Cotizacion Nueva.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Capa Diseño\Crear Caso.resx">
       <DependentUpon>Crear Caso.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Capa Diseño\frmMSGctrl.resx">
       <DependentUpon>frmMSGctrl.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Informes.resx">
+      <DependentUpon>Informes.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Capa Diseño\Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Capa Diseño\Menu Principal.resx">
       <DependentUpon>Menu Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Notificaciones.resx">
+      <DependentUpon>Notificaciones.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
