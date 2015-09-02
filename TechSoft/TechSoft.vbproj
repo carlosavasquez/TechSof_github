@@ -71,6 +71,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Capa Datos\Clase Casos.vb" />
     <Compile Include="Capa Datos\Clase Conexion.vb" />
     <Compile Include="Capa Datos\Clase Login.vb" />
     <Compile Include="Capa Diseño\Asignar Equipo.Designer.vb">

@@ -26,18 +26,20 @@ Partial Class Crear_Caso
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.txt_nombre = New System.Windows.Forms.TextBox()
+        Me.txt_apellido = New System.Windows.Forms.TextBox()
+        Me.txt_observaciones = New System.Windows.Forms.TextBox()
+        Me.txt_telefono = New System.Windows.Forms.TextBox()
+        Me.btn_guardar = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.btn_entrar = New System.Windows.Forms.Button()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(32, 40)
+        Me.Label1.Location = New System.Drawing.Point(54, 73)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(75, 21)
         Me.Label1.TabIndex = 0
@@ -47,7 +49,7 @@ Partial Class Crear_Caso
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(32, 75)
+        Me.Label2.Location = New System.Drawing.Point(54, 108)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(83, 21)
         Me.Label2.TabIndex = 1
@@ -57,7 +59,7 @@ Partial Class Crear_Caso
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(29, 110)
+        Me.Label3.Location = New System.Drawing.Point(51, 143)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(78, 21)
         Me.Label3.TabIndex = 2
@@ -67,69 +69,89 @@ Partial Class Crear_Caso
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(29, 145)
+        Me.Label4.Location = New System.Drawing.Point(51, 178)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(122, 21)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Observaciones:"
         '
+        'txt_nombre
+        '
+        Me.txt_nombre.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_nombre.Location = New System.Drawing.Point(179, 65)
+        Me.txt_nombre.Name = "txt_nombre"
+        Me.txt_nombre.Size = New System.Drawing.Size(228, 29)
+        Me.txt_nombre.TabIndex = 6
+        '
+        'txt_apellido
+        '
+        Me.txt_apellido.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_apellido.Location = New System.Drawing.Point(179, 100)
+        Me.txt_apellido.Name = "txt_apellido"
+        Me.txt_apellido.Size = New System.Drawing.Size(228, 29)
+        Me.txt_apellido.TabIndex = 7
+        '
+        'txt_observaciones
+        '
+        Me.txt_observaciones.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_observaciones.Location = New System.Drawing.Point(179, 170)
+        Me.txt_observaciones.Multiline = True
+        Me.txt_observaciones.Name = "txt_observaciones"
+        Me.txt_observaciones.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.txt_observaciones.Size = New System.Drawing.Size(228, 102)
+        Me.txt_observaciones.TabIndex = 8
+        '
+        'txt_telefono
+        '
+        Me.txt_telefono.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_telefono.Location = New System.Drawing.Point(179, 135)
+        Me.txt_telefono.Name = "txt_telefono"
+        Me.txt_telefono.Size = New System.Drawing.Size(228, 29)
+        Me.txt_telefono.TabIndex = 9
+        '
+        'btn_guardar
+        '
+        Me.btn_guardar.BackColor = System.Drawing.Color.LightSeaGreen
+        Me.btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_guardar.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_guardar.Location = New System.Drawing.Point(303, 278)
+        Me.btn_guardar.Name = "btn_guardar"
+        Me.btn_guardar.Size = New System.Drawing.Size(104, 43)
+        Me.btn_guardar.TabIndex = 12
+        Me.btn_guardar.Text = "Guardar"
+        Me.btn_guardar.UseVisualStyleBackColor = False
+        '
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(157, 32)
+        Me.TextBox1.Location = New System.Drawing.Point(179, 30)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(228, 29)
-        Me.TextBox1.TabIndex = 6
+        Me.TextBox1.Size = New System.Drawing.Size(74, 29)
+        Me.TextBox1.TabIndex = 14
         '
-        'TextBox2
+        'Label5
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(157, 67)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(228, 29)
-        Me.TextBox2.TabIndex = 7
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(157, 137)
-        Me.TextBox3.Multiline = True
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox3.Size = New System.Drawing.Size(228, 102)
-        Me.TextBox3.TabIndex = 8
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(157, 102)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(228, 29)
-        Me.TextBox4.TabIndex = 9
-        '
-        'btn_entrar
-        '
-        Me.btn_entrar.BackColor = System.Drawing.Color.LightSeaGreen
-        Me.btn_entrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_entrar.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_entrar.Location = New System.Drawing.Point(281, 245)
-        Me.btn_entrar.Name = "btn_entrar"
-        Me.btn_entrar.Size = New System.Drawing.Size(104, 43)
-        Me.btn_entrar.TabIndex = 12
-        Me.btn_entrar.Text = "Guardar"
-        Me.btn_entrar.UseVisualStyleBackColor = False
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(54, 38)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(79, 21)
+        Me.Label5.TabIndex = 13
+        Me.Label5.Text = "No. Caso:"
         '
         'Crear_Caso
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(466, 318)
-        Me.Controls.Add(Me.btn_entrar)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
+        Me.ClientSize = New System.Drawing.Size(466, 389)
         Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.btn_guardar)
+        Me.Controls.Add(Me.txt_telefono)
+        Me.Controls.Add(Me.txt_observaciones)
+        Me.Controls.Add(Me.txt_apellido)
+        Me.Controls.Add(Me.txt_nombre)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -145,9 +167,11 @@ Partial Class Crear_Caso
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents txt_nombre As System.Windows.Forms.TextBox
+    Friend WithEvents txt_apellido As System.Windows.Forms.TextBox
+    Friend WithEvents txt_observaciones As System.Windows.Forms.TextBox
+    Friend WithEvents txt_telefono As System.Windows.Forms.TextBox
+    Friend WithEvents btn_guardar As System.Windows.Forms.Button
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
-    Friend WithEvents btn_entrar As System.Windows.Forms.Button
+    Friend WithEvents Label5 As System.Windows.Forms.Label
 End Class

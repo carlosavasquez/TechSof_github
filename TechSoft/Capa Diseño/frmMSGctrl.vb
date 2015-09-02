@@ -9,10 +9,7 @@
     Private Sub frmMSGctrl_Load(sender As Object, e As System.EventArgs) Handles Me.Load
         Me.Location = New Point(My.Computer.Screen.Bounds.Width / 2 - 200, -155)
         Me.ShowInTaskbar = False
-        'Show_msg("Notice - School Hours Update", "Today School will finish at 2:30PM in preperation for Parent Teacher interviews." & vbCrLf & "Please remind your parents of their interview times.", MessageType.Information)
-        'Show_msg("Message - Blocked Application", "The application ""VLC"" was terminated, it is not allowed during school hours.", MessageType.Warning)
-        Show_msg("Notificación de Caso", "Tiene 5 Casos Pendientes", MessageType.Notice)
-        'Show_msg("Evacuate The School", "Fire Drill In Progress.", MessageType.RedAlert)
+        Show_msg("Notificación de Caso", "Tiene 5 Casos Pendientes", MessageType.YellowTheme)
     End Sub
     Public Enum MessageType
         Warning
@@ -25,13 +22,11 @@
         size_vaildation()
         Select Case (typeM)
             Case MessageType.Warning
-                'left_pan_colour.BackColor = Color.DarkOrange
-                'main_pan_colour.BackColor = Color.Bisque
-                'lbl_text.ForeColor = Color.Black
-                'lbl_title.ForeColor = Color.Black
+                left_pan_colour.BackColor = Color.YellowGreen
+                lbl_text.ForeColor = Color.Black
+                lbl_title.ForeColor = Color.Black
             Case MessageType.Information
-
-                main_pan_colour.BackColor = Color.YellowGreen
+                left_pan_colour.BackColor = Color.YellowGreen
                 lbl_text.ForeColor = Color.Black
                 lbl_title.ForeColor = Color.Black
             Case MessageType.Notice
@@ -40,15 +35,15 @@
                 lbl_text.ForeColor = Color.Black
                 lbl_title.ForeColor = Color.Black
             Case MessageType.RedAlert
-                'left_pan_colour.BackColor = Color.Black
-                'main_pan_colour.BackColor = Color.Red
-                'lbl_text.ForeColor = Color.Black
-                'lbl_title.ForeColor = Color.Black
+                left_pan_colour.BackColor = Color.Black
+                main_pan_colour.BackColor = Color.Red
+                lbl_text.ForeColor = Color.Black
+                lbl_title.ForeColor = Color.Black
             Case MessageType.YellowTheme
-                'left_pan_colour.BackColor = Color.Yellow
-                'main_pan_colour.BackColor = Color.LightYellow
-                'lbl_text.ForeColor = Color.Black
-                'lbl_title.ForeColor = Color.Black
+                left_pan_colour.BackColor = Color.Yellow
+                main_pan_colour.BackColor = Color.LightYellow
+                lbl_text.ForeColor = Color.Black
+                lbl_title.ForeColor = Color.Black
         End Select
         lbl_title.Text = title
         lbl_text.Text = text
