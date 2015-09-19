@@ -31,7 +31,7 @@ Partial Class Crear_Caso
         Me.txt_observaciones = New System.Windows.Forms.TextBox()
         Me.txt_telefono = New System.Windows.Forms.TextBox()
         Me.btn_guardar = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txt_numcaso = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
@@ -121,13 +121,13 @@ Partial Class Crear_Caso
         Me.btn_guardar.Text = "Guardar"
         Me.btn_guardar.UseVisualStyleBackColor = False
         '
-        'TextBox1
+        'txt_numcaso
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(179, 30)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(74, 29)
-        Me.TextBox1.TabIndex = 14
+        Me.txt_numcaso.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_numcaso.Location = New System.Drawing.Point(179, 30)
+        Me.txt_numcaso.Name = "txt_numcaso"
+        Me.txt_numcaso.Size = New System.Drawing.Size(74, 29)
+        Me.txt_numcaso.TabIndex = 14
         '
         'Label5
         '
@@ -145,7 +145,7 @@ Partial Class Crear_Caso
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(466, 389)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txt_numcaso)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.btn_guardar)
         Me.Controls.Add(Me.txt_telefono)
@@ -172,6 +172,6 @@ Partial Class Crear_Caso
     Friend WithEvents txt_observaciones As System.Windows.Forms.TextBox
     Friend WithEvents txt_telefono As System.Windows.Forms.TextBox
     Friend WithEvents btn_guardar As System.Windows.Forms.Button
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents txt_numcaso As System.Windows.Forms.TextBox
     Friend WithEvents Label5 As System.Windows.Forms.Label
 End Class

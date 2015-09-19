@@ -32,7 +32,11 @@ Partial Class Menu_Principal
         Me.InformesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CambiarClaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.status_nombre = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.MenuStrip1.SuspendLayout()
+        Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -93,11 +97,29 @@ Partial Class Menu_Principal
         'StatusStrip1
         '
         Me.StatusStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.status_nombre, Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2})
         Me.StatusStrip1.Location = New System.Drawing.Point(0, 402)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Size = New System.Drawing.Size(762, 22)
         Me.StatusStrip1.TabIndex = 2
         Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'status_nombre
+        '
+        Me.status_nombre.Name = "status_nombre"
+        Me.status_nombre.Size = New System.Drawing.Size(0, 17)
+        '
+        'ToolStripStatusLabel1
+        '
+        Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(154, 17)
+        Me.ToolStripStatusLabel1.Text = "                                                 "
+        '
+        'ToolStripStatusLabel2
+        '
+        Me.ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
+        Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(121, 17)
+        Me.ToolStripStatusLabel2.Text = "ToolStripStatusLabel2"
         '
         'Menu_Principal
         '
@@ -116,6 +138,8 @@ Partial Class Menu_Principal
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        Me.StatusStrip1.ResumeLayout(False)
+        Me.StatusStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -129,4 +153,7 @@ Partial Class Menu_Principal
     Friend WithEvents btn_nuevocaso As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents btn_editarcaso As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents btn_casospendientes As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents status_nombre As System.Windows.Forms.ToolStripStatusLabel
+    Friend WithEvents ToolStripStatusLabel1 As System.Windows.Forms.ToolStripStatusLabel
+    Friend WithEvents ToolStripStatusLabel2 As System.Windows.Forms.ToolStripStatusLabel
 End Class
