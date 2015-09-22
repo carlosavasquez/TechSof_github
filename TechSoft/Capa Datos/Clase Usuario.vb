@@ -1,11 +1,15 @@
 ﻿Public Class Clase_Usuario
+#Region "HERENCIA"
     Inherits Clase_Conexion
+#End Region
+#Region "VARIABLES"
     Dim id_usuario As Integer
     Dim usuario As String
     Dim clave As String
     Dim nombre_usuario As String
     Dim rol As Integer
     Dim estado_usuario As String
+#End Region
 #Region "PROPIEDADES"
     Public Property _usuario() As String
         Get
@@ -47,7 +51,7 @@
             Me.estado_usuario = value
         End Set
     End Property
-    Public Property _id_usuario As Integer
+    Public Property _id_usuario() As Integer
         Get
             Return id_usuario
         End Get
@@ -56,5 +60,4 @@
         End Set
     End Property
 #End Region
-
 End Class

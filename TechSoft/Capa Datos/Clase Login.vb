@@ -1,7 +1,5 @@
 ﻿Public Class Clase_Login
     Inherits Clase_Usuario
-
-
     Public Function Valores(ByVal usuario As String, ByVal pass As String)
         Dim dt As New DataTable
         Dim ds As New DataSet
