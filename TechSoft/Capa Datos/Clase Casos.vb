@@ -13,19 +13,19 @@
             Me.id_caso = value
         End Set
     End Property
-    Public Property _f_entrada_caso As Integer
+    Public Property _f_entrada_caso As Date
         Get
             Return f_entrada_caso
         End Get
-        Set(value As Integer)
+        Set(value As Date)
             Me.f_entrada_caso = value
         End Set
     End Property
-    Public Property _f_salida_caso As Integer
+    Public Property _f_salida_caso As Date
         Get
             Return f_salida_caso
         End Get
-        Set(value As Integer)
+        Set(value As Date)
             Me.f_salida_caso = value
         End Set
     End Property

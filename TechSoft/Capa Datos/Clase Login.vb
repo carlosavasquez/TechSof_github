@@ -9,9 +9,9 @@
         da.Fill(dt)
         For Each datarow In dt.Rows
             If usuario = datarow.item(0) And pass = datarow(1) And _estado_usuario = datarow(2) Then
-                _nombre_usuario = datarow(3).ToString.ToUpper
-                _rol = datarow(4)
-                _id_usuario = datarow(5)
+                nombre_usuario = datarow(3).ToString.ToUpper
+                rol_usuario = datarow(4).ToString.ToUpper
+                id_usuario = Val(datarow(5))
                 'MsgBox(_nombre_usuario.ToUpper)
                 conn.Close()
                 Return True
@@ -20,4 +20,5 @@
         conn.Close()
         Return False
     End Function
+
 End Class

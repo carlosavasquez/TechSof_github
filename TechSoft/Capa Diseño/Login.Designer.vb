@@ -70,6 +70,7 @@ Partial Class Login
         Me.txt_usuario.Name = "txt_usuario"
         Me.txt_usuario.Size = New System.Drawing.Size(189, 29)
         Me.txt_usuario.TabIndex = 3
+        Me.txt_usuario.Text = "carlos"
         '
         'txt_clave
         '
@@ -79,6 +80,7 @@ Partial Class Login
         Me.txt_clave.Name = "txt_clave"
         Me.txt_clave.Size = New System.Drawing.Size(189, 29)
         Me.txt_clave.TabIndex = 4
+        Me.txt_clave.Text = "1"
         Me.txt_clave.UseSystemPasswordChar = True
         '
         'Login

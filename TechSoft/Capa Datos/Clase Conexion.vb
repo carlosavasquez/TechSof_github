@@ -17,6 +17,7 @@ Public Class Clase_Conexion
             'MsgBox("Conexion Correcta")
         Catch ex As Exception
             MsgBox("NO SE PUDO CONECTAR AL SERVIDOR" & ex.ToString, MsgBoxStyle.Information)
+            Exit Sub
         End Try
     End Sub
     'procedimiento que Cierra un OdbcConnection

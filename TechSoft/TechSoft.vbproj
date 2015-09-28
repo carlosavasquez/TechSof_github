@@ -46,10 +46,10 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="My Project.Resources.Designer.vb">
       <HintPath>..\..\Biblioteca de clases\Biblioteca de clases\obj\Debug\TempPE\My Project.Resources.Designer.vb.dll</HintPath>
     </Reference>
-    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -77,9 +77,19 @@
     <Compile Include="Capa Datos\Clase Casos.vb" />
     <Compile Include="Capa Datos\Clase Cliente.vb" />
     <Compile Include="Capa Datos\Clase Conexion.vb" />
+    <Compile Include="Capa Datos\Clase Diagnostico.vb" />
+    <Compile Include="Capa Datos\Clase Equipos.vb" />
     <Compile Include="Capa Datos\Clase Login.vb" />
+    <Compile Include="Capa Datos\Clase Tipo Equipo.vb" />
     <Compile Include="Capa Datos\Clase Usuario.vb" />
-    <Compile Include="Capa Datos\Variables Globales.vb" />
+    <Compile Include="Capa Diseño\Crear Diagnostico.Designer.vb">
+      <DependentUpon>Crear Diagnostico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Capa Diseño\Crear Diagnostico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capa Negocio\Diagnostico.vb" />
+    <Compile Include="Capa Negocio\Variables Globales.vb" />
     <Compile Include="Capa Diseño\Asignar Equipo.Designer.vb">
       <DependentUpon>Asignar Equipo.vb</DependentUpon>
     </Compile>
@@ -146,7 +156,10 @@
     <Compile Include="Capa Diseño\Notificaciones.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Capa Negocio\Equipos.vb" />
+    <Compile Include="Capa Negocio\Tipo Equipos.vb" />
     <Compile Include="Capa Negocio\Casos.vb" />
+    <Compile Include="Capa Negocio\Clientes.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -181,6 +194,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Capa Diseño\Crear Caso.resx">
       <DependentUpon>Crear Caso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Diseño\Crear Diagnostico.resx">
+      <DependentUpon>Crear Diagnostico.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Capa Diseño\frmMSGctrl.resx">
       <DependentUpon>frmMSGctrl.vb</DependentUpon>
@@ -233,6 +249,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Closed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
