@@ -7,7 +7,18 @@
     Dim objdiagnostico As New Diagnostico
     Private Sub LlenarCasos()
         dgv_ListadoCasos.DataSource = objcasos.Casos_Diagnostico
-
+        dgv_ListadoCasos.Columns(0).Visible = False
+        dgv_ListadoCasos.Columns(1).Visible = False
+        dgv_ListadoCasos.Columns(2).Visible = False
+        dgv_ListadoCasos.Columns(3).Visible = False
+        dgv_ListadoCasos.Columns(4).HeaderText = "Fecha Entrada"
+        dgv_ListadoCasos.Columns(4).Width = 200
+        dgv_ListadoCasos.Columns(5).Width = 250
+        dgv_ListadoCasos.Columns(5).HeaderText = "Nombre Cliente"
+        dgv_ListadoCasos.Columns(6).Width = 200
+        dgv_ListadoCasos.Columns(6).HeaderText = "Referencia Equipo"
+        dgv_ListadoCasos.Columns(7).Width = 200
+        dgv_ListadoCasos.Columns(7).HeaderText = "Marca"
     End Sub
     Private Sub LimpiarCampos()
         txt_num_caso.Text = String.Empty
@@ -24,7 +35,8 @@
     Private Sub Crear_Diagnostico_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LlenarCasos()
         txt_fecha.Format = DateTimePickerFormat.Custom
-        txt_fecha.CustomFormat = "yyyy-MM-dd"
+        txt_fecha.CustomFormat = "yyyy-MM-dd HH:mm:ss"
+        Timer1.Start()
     End Sub
 
     Private Sub dgv_ListadoCasos_CellMouseDoubleClick(sender As Object, e As DataGridViewCellMouseEventArgs) Handles dgv_ListadoCasos.CellMouseDoubleClick
@@ -102,5 +114,9 @@
         Else
             ErrorIcono.SetError(sender, "El Campo Tiempo Reparacion es obligatorio")
         End If
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        txt_fecha.Text = Date.Now
     End Sub
 End Class

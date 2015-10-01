@@ -21,12 +21,12 @@
             status2.Text = "SIN ROL"
         End If
     End Sub
-
-   
     Private Sub NuevoDiagnosticoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NuevoDiagnosticoToolStripMenuItem.Click
         Dim ver As New Crear_Diagnostico
-
         ver.Show()
-
+    End Sub
+    Private Sub NuevaCotizacionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NuevaCotizacionToolStripMenuItem.Click
+        Dim ver As New Cotizacion_Nueva
+        ver.Show()
     End Sub
 End Class

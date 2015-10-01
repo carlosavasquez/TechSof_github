@@ -23,7 +23,7 @@ Partial Class Crear_Diagnostico
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.dgv_ListadoCasos = New System.Windows.Forms.DataGridView()
@@ -43,20 +43,21 @@ Partial Class Crear_Diagnostico
         Me.txt_num_caso = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.txt_fecha = New System.Windows.Forms.DateTimePicker()
-        Me.Label8 = New System.Windows.Forms.Label()
+        Me.l_cancel = New System.Windows.Forms.Label()
+        Me.btn_cancel = New System.Windows.Forms.Button()
+        Me.l_save = New System.Windows.Forms.Label()
+        Me.btn_guardar_todo = New System.Windows.Forms.Button()
         Me.txt_nota = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.txt_tiempo = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.txt_piezas = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.l_cancel = New System.Windows.Forms.Label()
-        Me.btn_cancel = New System.Windows.Forms.Button()
-        Me.l_save = New System.Windows.Forms.Label()
-        Me.btn_guardar_todo = New System.Windows.Forms.Button()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.txt_fecha = New System.Windows.Forms.DateTimePicker()
         Me.ErrorIcono = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.TT_mensaje = New System.Windows.Forms.ToolTip(Me.components)
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.dgv_ListadoCasos, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -71,7 +72,7 @@ Partial Class Crear_Diagnostico
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Controls.Add(Me.TabPage3)
         Me.TabControl1.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.TabControl1.Location = New System.Drawing.Point(23, 27)
+        Me.TabControl1.Location = New System.Drawing.Point(18, 20)
         Me.TabControl1.Multiline = True
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
@@ -85,7 +86,7 @@ Partial Class Crear_Diagnostico
         Me.TabPage1.Location = New System.Drawing.Point(4, 30)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(655, 383)
+        Me.TabPage1.Size = New System.Drawing.Size(669, 383)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Casos a Diagnosticar"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -95,21 +96,22 @@ Partial Class Crear_Diagnostico
         Me.dgv_ListadoCasos.AllowUserToAddRows = False
         Me.dgv_ListadoCasos.AllowUserToDeleteRows = False
         Me.dgv_ListadoCasos.AllowUserToOrderColumns = True
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter
-        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgv_ListadoCasos.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter
+        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold)
+        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgv_ListadoCasos.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle3
         Me.dgv_ListadoCasos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgv_ListadoCasos.Location = New System.Drawing.Point(6, 51)
+        Me.dgv_ListadoCasos.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.dgv_ListadoCasos.Location = New System.Drawing.Point(3, 3)
         Me.dgv_ListadoCasos.Name = "dgv_ListadoCasos"
         Me.dgv_ListadoCasos.ReadOnly = True
         Me.dgv_ListadoCasos.RowHeadersVisible = False
         Me.dgv_ListadoCasos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgv_ListadoCasos.Size = New System.Drawing.Size(643, 234)
+        Me.dgv_ListadoCasos.Size = New System.Drawing.Size(661, 375)
         Me.dgv_ListadoCasos.TabIndex = 19
         '
         'TabPage2
@@ -132,7 +134,7 @@ Partial Class Crear_Diagnostico
         Me.TabPage2.Location = New System.Drawing.Point(4, 30)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(655, 383)
+        Me.TabPage2.Size = New System.Drawing.Size(669, 383)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Detalle Caso"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -283,22 +285,57 @@ Partial Class Crear_Diagnostico
         Me.TabPage3.Text = "Diagnostico"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
-        'txt_fecha
+        'l_cancel
         '
-        Me.txt_fecha.Enabled = False
-        Me.txt_fecha.Location = New System.Drawing.Point(106, 28)
-        Me.txt_fecha.Name = "txt_fecha"
-        Me.txt_fecha.Size = New System.Drawing.Size(206, 29)
-        Me.txt_fecha.TabIndex = 0
+        Me.l_cancel.AutoSize = True
+        Me.l_cancel.Font = New System.Drawing.Font("Segoe UI", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.l_cancel.Location = New System.Drawing.Point(328, 331)
+        Me.l_cancel.Name = "l_cancel"
+        Me.l_cancel.Size = New System.Drawing.Size(74, 21)
+        Me.l_cancel.TabIndex = 22
+        Me.l_cancel.Text = "Cancelar"
         '
-        'Label8
+        'btn_cancel
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(7, 34)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(56, 21)
-        Me.Label8.TabIndex = 1
-        Me.Label8.Text = "Fecha:"
+        Me.btn_cancel.BackColor = System.Drawing.Color.Red
+        Me.btn_cancel.BackgroundImage = Global.TechSoft.My.Resources.Resources.Closed
+        Me.btn_cancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn_cancel.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_cancel.ForeColor = System.Drawing.Color.Black
+        Me.btn_cancel.Location = New System.Drawing.Point(341, 278)
+        Me.btn_cancel.Name = "btn_cancel"
+        Me.btn_cancel.Size = New System.Drawing.Size(50, 50)
+        Me.btn_cancel.TabIndex = 21
+        Me.btn_cancel.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btn_cancel.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
+        Me.btn_cancel.UseVisualStyleBackColor = False
+        '
+        'l_save
+        '
+        Me.l_save.AutoSize = True
+        Me.l_save.Font = New System.Drawing.Font("Segoe UI", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.l_save.Location = New System.Drawing.Point(252, 331)
+        Me.l_save.Name = "l_save"
+        Me.l_save.Size = New System.Drawing.Size(70, 21)
+        Me.l_save.TabIndex = 20
+        Me.l_save.Text = "Guardar"
+        '
+        'btn_guardar_todo
+        '
+        Me.btn_guardar_todo.BackColor = System.Drawing.Color.ForestGreen
+        Me.btn_guardar_todo.BackgroundImage = Global.TechSoft.My.Resources.Resources.Floppy
+        Me.btn_guardar_todo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_guardar_todo.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn_guardar_todo.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_guardar_todo.ForeColor = System.Drawing.Color.Black
+        Me.btn_guardar_todo.Location = New System.Drawing.Point(261, 278)
+        Me.btn_guardar_todo.Name = "btn_guardar_todo"
+        Me.btn_guardar_todo.Size = New System.Drawing.Size(50, 50)
+        Me.btn_guardar_todo.TabIndex = 19
+        Me.btn_guardar_todo.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.btn_guardar_todo.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
+        Me.btn_guardar_todo.UseVisualStyleBackColor = False
         '
         'txt_nota
         '
@@ -352,57 +389,22 @@ Partial Class Crear_Diagnostico
         Me.Label11.TabIndex = 10
         Me.Label11.Text = "Piezas " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Necesarias:"
         '
-        'l_cancel
+        'Label8
         '
-        Me.l_cancel.AutoSize = True
-        Me.l_cancel.Font = New System.Drawing.Font("Segoe UI", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.l_cancel.Location = New System.Drawing.Point(328, 331)
-        Me.l_cancel.Name = "l_cancel"
-        Me.l_cancel.Size = New System.Drawing.Size(74, 21)
-        Me.l_cancel.TabIndex = 22
-        Me.l_cancel.Text = "Cancelar"
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(7, 34)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(56, 21)
+        Me.Label8.TabIndex = 1
+        Me.Label8.Text = "Fecha:"
         '
-        'btn_cancel
+        'txt_fecha
         '
-        Me.btn_cancel.BackColor = System.Drawing.Color.Red
-        Me.btn_cancel.BackgroundImage = Global.TechSoft.My.Resources.Resources.Closed
-        Me.btn_cancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btn_cancel.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_cancel.ForeColor = System.Drawing.Color.Black
-        Me.btn_cancel.Location = New System.Drawing.Point(341, 278)
-        Me.btn_cancel.Name = "btn_cancel"
-        Me.btn_cancel.Size = New System.Drawing.Size(50, 50)
-        Me.btn_cancel.TabIndex = 21
-        Me.btn_cancel.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.btn_cancel.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
-        Me.btn_cancel.UseVisualStyleBackColor = False
-        '
-        'l_save
-        '
-        Me.l_save.AutoSize = True
-        Me.l_save.Font = New System.Drawing.Font("Segoe UI", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.l_save.Location = New System.Drawing.Point(252, 331)
-        Me.l_save.Name = "l_save"
-        Me.l_save.Size = New System.Drawing.Size(70, 21)
-        Me.l_save.TabIndex = 20
-        Me.l_save.Text = "Guardar"
-        '
-        'btn_guardar_todo
-        '
-        Me.btn_guardar_todo.BackColor = System.Drawing.Color.ForestGreen
-        Me.btn_guardar_todo.BackgroundImage = Global.TechSoft.My.Resources.Resources.Floppy
-        Me.btn_guardar_todo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btn_guardar_todo.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btn_guardar_todo.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_guardar_todo.ForeColor = System.Drawing.Color.Black
-        Me.btn_guardar_todo.Location = New System.Drawing.Point(261, 278)
-        Me.btn_guardar_todo.Name = "btn_guardar_todo"
-        Me.btn_guardar_todo.Size = New System.Drawing.Size(50, 50)
-        Me.btn_guardar_todo.TabIndex = 19
-        Me.btn_guardar_todo.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.btn_guardar_todo.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
-        Me.btn_guardar_todo.UseVisualStyleBackColor = False
+        Me.txt_fecha.Enabled = False
+        Me.txt_fecha.Location = New System.Drawing.Point(106, 28)
+        Me.txt_fecha.Name = "txt_fecha"
+        Me.txt_fecha.Size = New System.Drawing.Size(206, 29)
+        Me.txt_fecha.TabIndex = 0
         '
         'ErrorIcono
         '
@@ -411,6 +413,9 @@ Partial Class Crear_Diagnostico
         'TT_mensaje
         '
         Me.TT_mensaje.IsBalloon = True
+        '
+        'Timer1
+        '
         '
         'Crear_Diagnostico
         '
@@ -466,4 +471,5 @@ Partial Class Crear_Diagnostico
     Friend WithEvents btn_guardar_todo As System.Windows.Forms.Button
     Friend WithEvents ErrorIcono As System.Windows.Forms.ErrorProvider
     Friend WithEvents TT_mensaje As System.Windows.Forms.ToolTip
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
 End Class

@@ -37,6 +37,8 @@ Partial Class Menu_Principal
         Me.status_nombre = New System.Windows.Forms.ToolStripStatusLabel()
         Me.status1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.status2 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.CotizacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NuevaCotizacionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -45,7 +47,7 @@ Partial Class Menu_Principal
         '
         Me.MenuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.MenuStrip1.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btn_casos, Me.HerramientasToolStripMenuItem, Me.DiagnosticosToolStripMenuItem, Me.InformesToolStripMenuItem, Me.CambiarClaveToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.btn_casos, Me.CotizacionesToolStripMenuItem, Me.HerramientasToolStripMenuItem, Me.DiagnosticosToolStripMenuItem, Me.InformesToolStripMenuItem, Me.CambiarClaveToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
@@ -133,8 +135,21 @@ Partial Class Menu_Principal
         'status2
         '
         Me.status2.Name = "status2"
-        Me.status2.Size = New System.Drawing.Size(120, 17)
+        Me.status2.Size = New System.Drawing.Size(121, 17)
         Me.status2.Text = "ToolStripStatusLabel2"
+        '
+        'CotizacionesToolStripMenuItem
+        '
+        Me.CotizacionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaCotizacionToolStripMenuItem})
+        Me.CotizacionesToolStripMenuItem.Name = "CotizacionesToolStripMenuItem"
+        Me.CotizacionesToolStripMenuItem.Size = New System.Drawing.Size(114, 25)
+        Me.CotizacionesToolStripMenuItem.Text = "Cotizaciones"
+        '
+        'NuevaCotizacionToolStripMenuItem
+        '
+        Me.NuevaCotizacionToolStripMenuItem.Name = "NuevaCotizacionToolStripMenuItem"
+        Me.NuevaCotizacionToolStripMenuItem.Size = New System.Drawing.Size(206, 26)
+        Me.NuevaCotizacionToolStripMenuItem.Text = "Nueva Cotizacion"
         '
         'Menu_Principal
         '
@@ -173,4 +188,6 @@ Partial Class Menu_Principal
     Friend WithEvents status2 As System.Windows.Forms.ToolStripStatusLabel
     Friend WithEvents DiagnosticosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents NuevoDiagnosticoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CotizacionesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents NuevaCotizacionToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class
