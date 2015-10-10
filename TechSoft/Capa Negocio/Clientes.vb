@@ -20,7 +20,6 @@
             Return Datos
         End Try
         desconectarse()
-
     End Function
     Function CrearCliente(nombre As String, tel1 As String, tel2 As String, ciu As String)
         conn.Open()

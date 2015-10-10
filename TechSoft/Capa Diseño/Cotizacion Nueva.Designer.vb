@@ -22,12 +22,10 @@ Partial Class Cotizacion_Nueva
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.dgv_ListadoCasos = New System.Windows.Forms.DataGridView()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.txt_fecha_entrada = New System.Windows.Forms.TextBox()
@@ -44,17 +42,21 @@ Partial Class Cotizacion_Nueva
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txt_num_caso = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.btn_Buscar = New System.Windows.Forms.PictureBox()
         Me.txt_buscar = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.dgv_proveedores = New System.Windows.Forms.DataGridView()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.chk_CCoNIT = New System.Windows.Forms.RadioButton()
+        Me.chk_Razon = New System.Windows.Forms.RadioButton()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
-        Me.TabPage2.SuspendLayout()
         CType(Me.dgv_ListadoCasos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage4.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
         CType(Me.btn_Buscar, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgv_proveedores, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -81,43 +83,19 @@ Partial Class Cotizacion_Nueva
         Me.TabPage1.Text = "Casos a Cotizar"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
-        'TabPage2
-        '
-        Me.TabPage2.Controls.Add(Me.btn_Buscar)
-        Me.TabPage2.Controls.Add(Me.txt_buscar)
-        Me.TabPage2.Controls.Add(Me.Label8)
-        Me.TabPage2.Controls.Add(Me.DataGridView1)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 30)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(669, 383)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Seleccionar Proveedor"
-        Me.TabPage2.UseVisualStyleBackColor = True
-        '
-        'TabPage3
-        '
-        Me.TabPage3.Location = New System.Drawing.Point(4, 30)
-        Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(669, 383)
-        Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "Cotizacion"
-        Me.TabPage3.UseVisualStyleBackColor = True
-        '
         'dgv_ListadoCasos
         '
         Me.dgv_ListadoCasos.AllowUserToAddRows = False
         Me.dgv_ListadoCasos.AllowUserToDeleteRows = False
         Me.dgv_ListadoCasos.AllowUserToOrderColumns = True
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter
-        DataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgv_ListadoCasos.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter
+        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgv_ListadoCasos.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.dgv_ListadoCasos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgv_ListadoCasos.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgv_ListadoCasos.Location = New System.Drawing.Point(3, 3)
@@ -275,6 +253,22 @@ Partial Class Cotizacion_Nueva
         Me.Label1.TabIndex = 14
         Me.Label1.Text = "Numero Caso:"
         '
+        'TabPage2
+        '
+        Me.TabPage2.Controls.Add(Me.chk_Razon)
+        Me.TabPage2.Controls.Add(Me.chk_CCoNIT)
+        Me.TabPage2.Controls.Add(Me.btn_Buscar)
+        Me.TabPage2.Controls.Add(Me.txt_buscar)
+        Me.TabPage2.Controls.Add(Me.Label8)
+        Me.TabPage2.Controls.Add(Me.dgv_proveedores)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 30)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(669, 383)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "Seleccionar Proveedor"
+        Me.TabPage2.UseVisualStyleBackColor = True
+        '
         'btn_Buscar
         '
         Me.btn_Buscar.BackColor = System.Drawing.Color.Teal
@@ -305,27 +299,59 @@ Partial Class Cotizacion_Nueva
         Me.Label8.TabIndex = 21
         Me.Label8.Text = "Nombre Proveedor:"
         '
-        'DataGridView1
+        'dgv_proveedores
         '
-        Me.DataGridView1.AllowUserToAddRows = False
-        Me.DataGridView1.AllowUserToDeleteRows = False
-        Me.DataGridView1.AllowUserToOrderColumns = True
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter
-        DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle4
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(10, 93)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.ReadOnly = True
-        Me.DataGridView1.RowHeadersVisible = False
-        Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(631, 234)
-        Me.DataGridView1.TabIndex = 20
+        Me.dgv_proveedores.AllowUserToAddRows = False
+        Me.dgv_proveedores.AllowUserToDeleteRows = False
+        Me.dgv_proveedores.AllowUserToOrderColumns = True
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter
+        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgv_proveedores.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        Me.dgv_proveedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgv_proveedores.Location = New System.Drawing.Point(10, 93)
+        Me.dgv_proveedores.Name = "dgv_proveedores"
+        Me.dgv_proveedores.ReadOnly = True
+        Me.dgv_proveedores.RowHeadersVisible = False
+        Me.dgv_proveedores.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dgv_proveedores.Size = New System.Drawing.Size(631, 234)
+        Me.dgv_proveedores.TabIndex = 20
+        '
+        'TabPage3
+        '
+        Me.TabPage3.Location = New System.Drawing.Point(4, 30)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage3.Size = New System.Drawing.Size(669, 383)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "Cotizacion"
+        Me.TabPage3.UseVisualStyleBackColor = True
+        '
+        'chk_CCoNIT
+        '
+        Me.chk_CCoNIT.AutoSize = True
+        Me.chk_CCoNIT.Location = New System.Drawing.Point(142, 17)
+        Me.chk_CCoNIT.Name = "chk_CCoNIT"
+        Me.chk_CCoNIT.Size = New System.Drawing.Size(92, 25)
+        Me.chk_CCoNIT.TabIndex = 25
+        Me.chk_CCoNIT.TabStop = True
+        Me.chk_CCoNIT.Text = "CC o NIT"
+        Me.chk_CCoNIT.UseVisualStyleBackColor = True
+        '
+        'chk_Razon
+        '
+        Me.chk_Razon.AutoSize = True
+        Me.chk_Razon.Location = New System.Drawing.Point(10, 17)
+        Me.chk_Razon.Name = "chk_Razon"
+        Me.chk_Razon.Size = New System.Drawing.Size(119, 25)
+        Me.chk_Razon.TabIndex = 26
+        Me.chk_Razon.TabStop = True
+        Me.chk_Razon.Text = "Razon Social"
+        Me.chk_Razon.UseVisualStyleBackColor = True
         '
         'Cotizacion_Nueva
         '
@@ -339,13 +365,13 @@ Partial Class Cotizacion_Nueva
         Me.Text = "Cotizacion Nueva"
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
-        Me.TabPage2.ResumeLayout(False)
-        Me.TabPage2.PerformLayout()
         CType(Me.dgv_ListadoCasos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage4.ResumeLayout(False)
         Me.TabPage4.PerformLayout()
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage2.PerformLayout()
         CType(Me.btn_Buscar, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgv_proveedores, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -372,5 +398,7 @@ Partial Class Cotizacion_Nueva
     Friend WithEvents btn_Buscar As System.Windows.Forms.PictureBox
     Friend WithEvents txt_buscar As System.Windows.Forms.TextBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
+    Friend WithEvents dgv_proveedores As System.Windows.Forms.DataGridView
+    Friend WithEvents chk_Razon As System.Windows.Forms.RadioButton
+    Friend WithEvents chk_CCoNIT As System.Windows.Forms.RadioButton
 End Class

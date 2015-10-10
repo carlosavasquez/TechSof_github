@@ -34,5 +34,10 @@ Namespace My
         Protected Overrides Sub OnCreateMainForm()
             Me.MainForm = Global.TechSoft.Login
         End Sub
+        
+        <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
+        Protected Overrides Sub OnCreateSplashScreen()
+            Me.SplashScreen = Global.TechSoft.Splash
+        End Sub
     End Class
 End Namespace
