@@ -1,34 +1,47 @@
-﻿Public Class Tipo_Equipos
+﻿Imports DevExpress.XtraEditors
+Imports DevExpress.XtraEditors.Controls
+
+Public Class Tipo_Equipos
     Inherits Clase_Tipo_Equipo
 
-    Function ObtenerTiposEquipos() As ArrayList
-        conn.Open()
+    Function ObtenerTiposEquipos(combo As ComboBoxEdit) As ComboBoxEdit
+        conectarse()
         cmd.CommandType = CommandType.Text
         cmd.Connection = conn
         cmd.CommandText = "SELECT nombre_tipo FROM tipos ORDER BY nombre_tipo ASC"
         lector = cmd.ExecuteReader()
-        Dim lista As New ArrayList
-        While lector.Read
-            lista.Add(lector(0))
-        End While
+        Dim Coll As ComboBoxItemCollection = combo.Properties.Items
+        Coll.BeginUpdate()
+        Try
+            While lector.Read
+                Coll.Add(lector(0))
+            End While
+        Finally
+            Coll.EndUpdate()
+        End Try
         conn.Close()
-        Return lista
+        Return combo
     End Function
-    Function ObtenerMarcas() As ArrayList
-        conn.Open()
+    Function ObtenerMarcas(combo As ComboBoxEdit) As ComboBoxEdit
+        conectarse()
         cmd.CommandType = CommandType.Text
         cmd.Connection = conn
         cmd.CommandText = "SELECT nombre_marca FROM marcas ORDER BY nombre_marca ASC"
         lector = cmd.ExecuteReader()
-        Dim lista As New ArrayList
-        While lector.Read
-            lista.Add(lector(0))
-        End While
+        Dim Coll As ComboBoxItemCollection = combo.Properties.Items
+        Coll.BeginUpdate()
+        Try
+            While lector.Read
+                Coll.Add(lector(0))
+            End While
+        Finally
+            Coll.EndUpdate()
+        End Try
         conn.Close()
-        Return lista
+        Return combo
     End Function
     Function ObtenerIdTipo(nom As String) As Integer
-        conn.Open()
+        conectarse()
         cmd.CommandType = CommandType.Text
         cmd.Connection = conn
         Try
@@ -43,19 +56,18 @@
         End Try
     End Function
     Function ObtenerIdMarca(nom As String) As Integer
-        conn.Open()
-        Dim idmarca As Integer
+        conectarse()
         cmd.CommandType = CommandType.Text
         cmd.Connection = conn
         Try
             cmd.CommandText = "SELECT id_marca FROM marcas WHERE nombre_marca='" & nom & "'"
-            idmarca = cmd.ExecuteScalar()
+            _id_marca = cmd.ExecuteScalar()
             conn.Close()
-            Return idmarca
+            Return _id_marca
         Catch ex As Exception
             MsgBox(ex.ToString)
             desconectarse()
-            Return idmarca = Nothing
+            Return _id_marca = Nothing
         End Try
     End Function
     Sub ObtenerDatosTipoConId()

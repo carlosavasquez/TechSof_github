@@ -1,7 +1,7 @@
 ﻿Public Class Diagnostico
     Inherits Clase_Diagnostico
     Function ObtenerUltimoDiagnostico() As Integer
-        conn.Open()
+        conectarse()
         cmd.CommandType = CommandType.Text
         cmd.Connection = conn
         Try
@@ -15,7 +15,7 @@
         End Try
     End Function
     Function Crear_Diagnostico(id_usu As Integer, nota As String, pieza As String, tiempo As String, fecha As String)
-        conn.Open()
+        conectarse()
         cmd.CommandType = CommandType.Text
         cmd.Connection = conn
         Try

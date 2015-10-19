@@ -21,12 +21,12 @@
         End Try
         desconectarse()
     End Function
-    Function CrearCliente(nombre As String, tel1 As String, tel2 As String, ciu As String)
-        conn.Open()
+    Function CrearCliente(nombre As String, tel1 As String, tel2 As String, ciu As String, obs As String)
+        conectarse()
         cmd.CommandType = CommandType.Text
         cmd.Connection = conn
         Try
-            cmd.CommandText = "INSERT INTO clientes(nombre_cliente,telefono_cliente,telefono_2,ciudad) VALUES ('" & nombre & "','" & tel1 & "','" & tel2 & "','" & ciu & "')"
+            cmd.CommandText = "INSERT INTO clientes(nombre_cliente,telefono_cliente,telefono_2,ciudad,observaciones_cliente) VALUES ('" & nombre & "','" & tel1 & "','" & tel2 & "','" & ciu & "','" & obs & "')"
             Dim resultado As String = cmd.ExecuteNonQuery()
             desconectarse()
             If resultado <> 0 Then
@@ -39,12 +39,12 @@
             Return False
         End Try
     End Function
-    Sub EditarCliente(id As Integer, nombre As String, tel1 As String, tel2 As String, ciu As String)
+    Sub EditarCliente(id As Integer, nombre As String, tel1 As String, tel2 As String, ciu As String, obs As String)
         conectarse()
         cmd.CommandType = CommandType.Text
         cmd.Connection = conn
         Try
-            cmd.CommandText = "UPDATE clientes SET nombre_cliente='" & nombre & "',telefono_cliente='" & tel1 & "',telefono_2='" & tel2 & "',ciudad='" & ciu & "' WHERE id_cliente='" & id & "'"
+            cmd.CommandText = "UPDATE clientes SET nombre_cliente='" & nombre & "',telefono_cliente='" & tel1 & "',telefono_2='" & tel2 & "',ciudad='" & ciu & "',observaciones_cliente='" & obs & "' WHERE id_cliente='" & id & "'"
             cmd.ExecuteNonQuery()
             desconectarse()
         Catch ex As Exception
@@ -52,7 +52,7 @@
         End Try
     End Sub
     Function ObtenerUltimoCliente() As Integer
-        conn.Open()
+        conectarse()
         cmd.CommandType = CommandType.Text
         cmd.Connection = conn
         Try

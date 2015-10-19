@@ -21,7 +21,7 @@
         dgv_ListadoCasos.Columns(7).HeaderText = "Marca"
     End Sub
     Public Sub LlenarProveedores()
-        dgv_proveedores.DataSource = objprove.MostrarProveedor(txt_buscar.Text, criterio)
+        dgv_proveedores.DataSource = objprove.MostrarProveedor()
         dgv_proveedores.Columns(0).Visible = False
         dgv_proveedores.Columns(1).HeaderText = "Razon Social"
         dgv_proveedores.Columns(1).Width = 250

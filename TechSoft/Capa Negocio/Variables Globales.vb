@@ -1,6 +1,8 @@
 ﻿Module Variables_Globales
-    Public id_usuario, id_tip, id_mar As Integer
-    Public rol_usuario, nombre_usuario As String
+    Public id_usuario, id_tip, id_mar, cont_ini, cont As Integer
+    Public rol_usuario, nombre_usuario, nom_rol, fecha_actual, id_case As String
+    Public marc, tip, prob, obse, nom_cli, clave_usu As String
+    Public diag, piez As String
     Public Sub SoloTexto(e As KeyPressEventArgs)
         If Char.IsLetter(e.KeyChar) Then
             e.Handled = False

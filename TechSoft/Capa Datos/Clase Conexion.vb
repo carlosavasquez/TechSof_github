@@ -6,7 +6,7 @@ Imports System.IO
 
 Public Class Clase_Conexion
     'Variables globales utilizadas en todo el programas
-    Public conn As New OdbcConnection("dsn=techsoft")
+    Public conn As New OdbcConnection("dsn=techsoft_local")
     Public cmd As New OdbcCommand
     Public lector As Odbc.OdbcDataReader
     Public trans As OdbcTransaction
@@ -16,8 +16,8 @@ Public Class Clase_Conexion
             conn.Open()
             'MsgBox("Conexion Correcta")
         Catch ex As Exception
-            MsgBox("NO SE PUDO CONECTAR AL SERVIDOR" & ex.ToString, MsgBoxStyle.Information)
-            Exit Sub
+            DevExpress.XtraEditors.XtraMessageBox.Show("NO SE PUDO CONECTAR AL SERVIDOR", "Error en el servidor", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Application.Exit()
         End Try
     End Sub
     'procedimiento que Cierra un OdbcConnection

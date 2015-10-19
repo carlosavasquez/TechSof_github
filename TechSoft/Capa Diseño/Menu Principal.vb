@@ -5,8 +5,7 @@
         ver.Show()
     End Sub
     Private Sub CambiarClaveToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CambiarClaveToolStripMenuItem.Click
-        Dim ver As New frmMSGctrl
-        ver.Show()
+       
     End Sub
     Private Sub Menu_Principal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'MsgBox(n_usuario, MsgBoxStyle.Information, "Información")

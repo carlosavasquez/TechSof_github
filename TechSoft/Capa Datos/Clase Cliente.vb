@@ -1,7 +1,7 @@
 ﻿Public Class Clase_Cliente
     Inherits Clase_Conexion
     Dim id_cliente As Integer
-    Dim nombre_cliente, apellido_cliente, tel1, tel2, ciudad As String
+    Dim nombre_cliente, apellido_cliente, tel1, tel2, ciudad, observaciones As String
     Public Property _idcliente As Integer
         Get
             Return id_cliente
@@ -50,5 +50,12 @@
             Me.ciudad = value
         End Set
     End Property
-
+    Public Property _observaciones As String
+        Get
+            Return observaciones
+        End Get
+        Set(value As String)
+            Me.observaciones = value
+        End Set
+    End Property
 End Class

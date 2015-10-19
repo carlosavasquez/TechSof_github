@@ -22,7 +22,7 @@
         End Try
     End Function
     Function ObtenerUltimoEquipo() As Integer
-        conn.Open()
+        conectarse()
         cmd.CommandType = CommandType.Text
         cmd.Connection = conn
         Try

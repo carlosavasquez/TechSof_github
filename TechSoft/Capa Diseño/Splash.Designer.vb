@@ -40,10 +40,10 @@ Partial Class Splash
         Me.pictureEdit2.Location = New System.Drawing.Point(12, 12)
         Me.pictureEdit2.Name = "pictureEdit2"
         Me.pictureEdit2.Properties.AllowFocused = False
-        Me.pictureEdit2.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
+        Me.pictureEdit2.Properties.Appearance.BackColor = System.Drawing.Color.White
         Me.pictureEdit2.Properties.Appearance.Options.UseBackColor = True
         Me.pictureEdit2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.pictureEdit2.Properties.ErrorImage = Global.TechSoft.My.Resources.Resources.Un_lock
+        Me.pictureEdit2.Properties.ErrorImage = Global.TechSoft.My.Resources.Resources.Unlock
         Me.pictureEdit2.Properties.ShowMenu = False
         Me.pictureEdit2.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Squeeze
         Me.pictureEdit2.Size = New System.Drawing.Size(426, 180)
@@ -53,14 +53,15 @@ Partial Class Splash
         '
         Me.pictureEdit1.Cursor = System.Windows.Forms.Cursors.Default
         Me.pictureEdit1.EditValue = CType(resources.GetObject("pictureEdit1.EditValue"), Object)
-        Me.pictureEdit1.Location = New System.Drawing.Point(278, 266)
+        Me.pictureEdit1.Location = New System.Drawing.Point(371, 286)
         Me.pictureEdit1.Name = "pictureEdit1"
         Me.pictureEdit1.Properties.AllowFocused = False
         Me.pictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.pictureEdit1.Properties.Appearance.Options.UseBackColor = True
         Me.pictureEdit1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.pictureEdit1.Properties.ShowMenu = False
-        Me.pictureEdit1.Size = New System.Drawing.Size(160, 48)
+        Me.pictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Squeeze
+        Me.pictureEdit1.Size = New System.Drawing.Size(67, 28)
         Me.pictureEdit1.TabIndex = 13
         '
         'labelControl2
@@ -94,12 +95,14 @@ Partial Class Splash
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(450, 320)
         Me.Controls.Add(Me.pictureEdit2)
         Me.Controls.Add(Me.pictureEdit1)
         Me.Controls.Add(Me.labelControl2)
         Me.Controls.Add(Me.labelControl1)
         Me.Controls.Add(Me.marqueeProgressBarControl1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Splash"
         Me.Text = "Form1"
         CType(Me.pictureEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
