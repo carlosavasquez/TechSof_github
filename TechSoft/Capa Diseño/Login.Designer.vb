@@ -37,7 +37,7 @@ Partial Class Login
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(23, 34)
+        Me.Label1.Location = New System.Drawing.Point(5, 29)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(68, 21)
         Me.Label1.TabIndex = 1
@@ -49,7 +49,7 @@ Partial Class Login
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(23, 73)
+        Me.Label2.Location = New System.Drawing.Point(5, 68)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(51, 21)
         Me.Label2.TabIndex = 2
@@ -59,7 +59,7 @@ Partial Class Login
         '
         Me.txt_usuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txt_usuario.Font = New System.Drawing.Font("Segoe UI", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_usuario.Location = New System.Drawing.Point(107, 26)
+        Me.txt_usuario.Location = New System.Drawing.Point(89, 21)
         Me.txt_usuario.Name = "txt_usuario"
         Me.txt_usuario.Size = New System.Drawing.Size(189, 29)
         Me.txt_usuario.TabIndex = 3
@@ -68,7 +68,7 @@ Partial Class Login
         '
         Me.txt_clave.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txt_clave.Font = New System.Drawing.Font("Segoe UI", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_clave.Location = New System.Drawing.Point(107, 65)
+        Me.txt_clave.Location = New System.Drawing.Point(89, 60)
         Me.txt_clave.Name = "txt_clave"
         Me.txt_clave.Size = New System.Drawing.Size(189, 29)
         Me.txt_clave.TabIndex = 4
@@ -81,7 +81,7 @@ Partial Class Login
         Me.btn_entrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btn_entrar.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
         Me.btn_entrar.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.TopLeft
-        Me.btn_entrar.Location = New System.Drawing.Point(107, 100)
+        Me.btn_entrar.Location = New System.Drawing.Point(89, 95)
         Me.btn_entrar.Name = "btn_entrar"
         Me.btn_entrar.Size = New System.Drawing.Size(83, 34)
         Me.btn_entrar.TabIndex = 5
@@ -96,7 +96,7 @@ Partial Class Login
         Me.SimpleButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.SimpleButton1.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter
         Me.SimpleButton1.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.TopLeft
-        Me.SimpleButton1.Location = New System.Drawing.Point(213, 100)
+        Me.SimpleButton1.Location = New System.Drawing.Point(195, 95)
         Me.SimpleButton1.LookAndFeel.SkinName = "DevExpress Dark Style"
         Me.SimpleButton1.LookAndFeel.UseDefaultLookAndFeel = False
         Me.SimpleButton1.Name = "SimpleButton1"
@@ -109,8 +109,8 @@ Partial Class Login
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(312, 157)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ClientSize = New System.Drawing.Size(288, 157)
         Me.Controls.Add(Me.SimpleButton1)
         Me.Controls.Add(Me.btn_entrar)
         Me.Controls.Add(Me.txt_clave)

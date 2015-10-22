@@ -23,7 +23,11 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>1</ApplicationRevision>
+    <TargetCulture>es-CO</TargetCulture>
+    <ProductName>Servicio tecnico</ProductName>
+    <PublisherName>Carlos Vasquez</PublisherName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -1029,6 +1033,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\exit-button-hi.png" />
+    <None Include="Resources\Logomed %281%29.jpg" />
     <Content Include="services.ico" />
   </ItemGroup>
   <ItemGroup>
