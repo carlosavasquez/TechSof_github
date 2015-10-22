@@ -30,8 +30,10 @@ Partial Class Listado_Casos
         Me.RibbonControl1 = New DevExpress.XtraBars.Ribbon.RibbonControl()
         Me.btn_nuevocaso = New DevExpress.XtraBars.BarButtonItem()
         Me.btn_salir = New DevExpress.XtraBars.BarButtonItem()
+        Me.btn_seguimiento = New DevExpress.XtraBars.BarButtonItem()
         Me.RibbonPage1 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.RibbonPageGroup1 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+        Me.RibbonPageGroup3 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup2 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.Panel_respuesta = New DevExpress.XtraEditors.PanelControl()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
@@ -113,9 +115,9 @@ Partial Class Listado_Casos
         '
         Me.RibbonControl1.BackColor = System.Drawing.Color.White
         Me.RibbonControl1.ExpandCollapseItem.Id = 0
-        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.btn_nuevocaso, Me.btn_salir})
+        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.btn_nuevocaso, Me.btn_salir, Me.btn_seguimiento})
         Me.RibbonControl1.Location = New System.Drawing.Point(0, 0)
-        Me.RibbonControl1.MaxItemId = 3
+        Me.RibbonControl1.MaxItemId = 4
         Me.RibbonControl1.Name = "RibbonControl1"
         Me.RibbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.RibbonPage1})
         Me.RibbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.MacOffice
@@ -137,9 +139,17 @@ Partial Class Listado_Casos
         Me.btn_salir.LargeGlyph = Global.TechSoft.My.Resources.Resources.icon_close_32
         Me.btn_salir.Name = "btn_salir"
         '
+        'btn_seguimiento
+        '
+        Me.btn_seguimiento.Caption = "Seguimiento"
+        Me.btn_seguimiento.Glyph = Global.TechSoft.My.Resources.Resources.icon_panel_bottom_16
+        Me.btn_seguimiento.Id = 3
+        Me.btn_seguimiento.LargeGlyph = Global.TechSoft.My.Resources.Resources.icon_panel_bottom_32
+        Me.btn_seguimiento.Name = "btn_seguimiento"
+        '
         'RibbonPage1
         '
-        Me.RibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup1, Me.RibbonPageGroup2})
+        Me.RibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup1, Me.RibbonPageGroup3, Me.RibbonPageGroup2})
         Me.RibbonPage1.Name = "RibbonPage1"
         Me.RibbonPage1.Text = "MENU PRINCIPAL"
         '
@@ -148,6 +158,12 @@ Partial Class Listado_Casos
         Me.RibbonPageGroup1.ItemLinks.Add(Me.btn_nuevocaso, True)
         Me.RibbonPageGroup1.Name = "RibbonPageGroup1"
         Me.RibbonPageGroup1.Text = "Opciones"
+        '
+        'RibbonPageGroup3
+        '
+        Me.RibbonPageGroup3.ItemLinks.Add(Me.btn_seguimiento)
+        Me.RibbonPageGroup3.Name = "RibbonPageGroup3"
+        Me.RibbonPageGroup3.Text = "Eventos"
         '
         'RibbonPageGroup2
         '
@@ -514,4 +530,6 @@ Partial Class Listado_Casos
     Friend WithEvents btn_guardar_entregado As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents LabelControl8 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents txt_nota_entregado As DevExpress.XtraEditors.MemoEdit
+    Friend WithEvents btn_seguimiento As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents RibbonPageGroup3 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
 End Class

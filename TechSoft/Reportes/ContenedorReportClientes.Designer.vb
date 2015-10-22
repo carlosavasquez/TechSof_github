@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Contenedor
+Partial Class ContenedorReportClientes
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -92,7 +92,7 @@ Partial Class Contenedor
         Dim SuperToolTip23 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
         Dim ToolTipTitleItem23 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
         Dim ToolTipItem23 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Contenedor))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ContenedorReportClientes))
         Dim SuperToolTip24 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
         Dim ToolTipTitleItem24 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
         Dim ToolTipItem24 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
@@ -231,9 +231,6 @@ Partial Class Contenedor
         Me.PrintPreviewStaticItem2 = New DevExpress.XtraPrinting.Preview.PrintPreviewStaticItem()
         Me.ZoomTrackBarEditItem1 = New DevExpress.XtraPrinting.Preview.ZoomTrackBarEditItem()
         Me.RepositoryItemZoomTrackBar1 = New DevExpress.XtraEditors.Repository.RepositoryItemZoomTrackBar()
-        Me.btn_fechas = New DevExpress.XtraBars.BarButtonItem()
-        Me.btn_estado = New DevExpress.XtraBars.BarButtonItem()
-        Me.btn_cliente = New DevExpress.XtraBars.BarButtonItem()
         Me.RibbonPage1 = New DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPage()
         Me.PrintPreviewRibbonPageGroup1 = New DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup()
         Me.PrintPreviewRibbonPageGroup2 = New DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup()
@@ -253,13 +250,13 @@ Partial Class Contenedor
         'DocumentViewer1
         '
         Me.DocumentViewer1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DocumentViewer1.DocumentSource = GetType(TechSoft.ReporteFechasIP)
+        Me.DocumentViewer1.DocumentSource = GetType(TechSoft.ReporteClientesIP)
         Me.DocumentViewer1.IsMetric = True
         Me.DocumentViewer1.Location = New System.Drawing.Point(0, 141)
         Me.DocumentViewer1.LookAndFeel.SkinName = "Office 2010 Blue"
         Me.DocumentViewer1.LookAndFeel.UseDefaultLookAndFeel = False
         Me.DocumentViewer1.Name = "DocumentViewer1"
-        Me.DocumentViewer1.Size = New System.Drawing.Size(849, 581)
+        Me.DocumentViewer1.Size = New System.Drawing.Size(890, 380)
         Me.DocumentViewer1.TabIndex = 0
         '
         'DocumentViewerRibbonController1
@@ -272,13 +269,13 @@ Partial Class Contenedor
         '
         Me.RibbonControl1.AutoHideEmptyItems = True
         Me.RibbonControl1.ExpandCollapseItem.Id = 0
-        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.PrintPreviewBarItem1, Me.PrintPreviewBarItem2, Me.PrintPreviewBarItem3, Me.PrintPreviewBarItem4, Me.PrintPreviewBarItem5, Me.PrintPreviewBarItem6, Me.PrintPreviewBarItem7, Me.PrintPreviewBarItem8, Me.PrintPreviewBarItem9, Me.PrintPreviewBarItem10, Me.PrintPreviewBarItem11, Me.PrintPreviewBarItem12, Me.PrintPreviewBarItem13, Me.PrintPreviewBarItem14, Me.PrintPreviewBarItem15, Me.PrintPreviewBarItem16, Me.PrintPreviewBarItem17, Me.PrintPreviewBarItem18, Me.PrintPreviewBarItem19, Me.PrintPreviewBarItem20, Me.PrintPreviewBarItem21, Me.PrintPreviewBarItem22, Me.PrintPreviewBarItem23, Me.PrintPreviewBarItem24, Me.PrintPreviewBarItem25, Me.PrintPreviewBarItem26, Me.PrintPreviewBarItem27, Me.PrintPreviewBarItem28, Me.PrintPreviewBarItem29, Me.PrintPreviewBarItem30, Me.PrintPreviewBarItem31, Me.PrintPreviewBarItem32, Me.PrintPreviewBarItem33, Me.PrintPreviewBarItem34, Me.PrintPreviewBarItem35, Me.PrintPreviewBarItem36, Me.PrintPreviewBarItem37, Me.PrintPreviewBarItem38, Me.PrintPreviewBarItem39, Me.PrintPreviewBarItem40, Me.PrintPreviewBarItem41, Me.PrintPreviewBarItem42, Me.PrintPreviewBarItem43, Me.PrintPreviewBarItem44, Me.PrintPreviewBarItem45, Me.PrintPreviewBarItem46, Me.PrintPreviewBarItem47, Me.PrintPreviewBarItem48, Me.PrintPreviewStaticItem1, Me.BarStaticItem1, Me.ProgressBarEditItem1, Me.PrintPreviewBarItem49, Me.BarButtonItem1, Me.PrintPreviewStaticItem2, Me.ZoomTrackBarEditItem1, Me.btn_fechas, Me.btn_estado, Me.btn_cliente})
+        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.PrintPreviewBarItem1, Me.PrintPreviewBarItem2, Me.PrintPreviewBarItem3, Me.PrintPreviewBarItem4, Me.PrintPreviewBarItem5, Me.PrintPreviewBarItem6, Me.PrintPreviewBarItem7, Me.PrintPreviewBarItem8, Me.PrintPreviewBarItem9, Me.PrintPreviewBarItem10, Me.PrintPreviewBarItem11, Me.PrintPreviewBarItem12, Me.PrintPreviewBarItem13, Me.PrintPreviewBarItem14, Me.PrintPreviewBarItem15, Me.PrintPreviewBarItem16, Me.PrintPreviewBarItem17, Me.PrintPreviewBarItem18, Me.PrintPreviewBarItem19, Me.PrintPreviewBarItem20, Me.PrintPreviewBarItem21, Me.PrintPreviewBarItem22, Me.PrintPreviewBarItem23, Me.PrintPreviewBarItem24, Me.PrintPreviewBarItem25, Me.PrintPreviewBarItem26, Me.PrintPreviewBarItem27, Me.PrintPreviewBarItem28, Me.PrintPreviewBarItem29, Me.PrintPreviewBarItem30, Me.PrintPreviewBarItem31, Me.PrintPreviewBarItem32, Me.PrintPreviewBarItem33, Me.PrintPreviewBarItem34, Me.PrintPreviewBarItem35, Me.PrintPreviewBarItem36, Me.PrintPreviewBarItem37, Me.PrintPreviewBarItem38, Me.PrintPreviewBarItem39, Me.PrintPreviewBarItem40, Me.PrintPreviewBarItem41, Me.PrintPreviewBarItem42, Me.PrintPreviewBarItem43, Me.PrintPreviewBarItem44, Me.PrintPreviewBarItem45, Me.PrintPreviewBarItem46, Me.PrintPreviewBarItem47, Me.PrintPreviewBarItem48, Me.PrintPreviewStaticItem1, Me.BarStaticItem1, Me.ProgressBarEditItem1, Me.PrintPreviewBarItem49, Me.BarButtonItem1, Me.PrintPreviewStaticItem2, Me.ZoomTrackBarEditItem1})
         Me.RibbonControl1.Location = New System.Drawing.Point(0, 0)
-        Me.RibbonControl1.MaxItemId = 59
+        Me.RibbonControl1.MaxItemId = 56
         Me.RibbonControl1.Name = "RibbonControl1"
         Me.RibbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.RibbonPage1})
         Me.RibbonControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemProgressBar1, Me.RepositoryItemZoomTrackBar1})
-        Me.RibbonControl1.Size = New System.Drawing.Size(849, 141)
+        Me.RibbonControl1.Size = New System.Drawing.Size(890, 141)
         Me.RibbonControl1.StatusBar = Me.RibbonStatusBar1
         Me.RibbonControl1.TransparentEditors = True
         '
@@ -1320,30 +1317,6 @@ Partial Class Contenedor
         Me.RepositoryItemZoomTrackBar1.Name = "RepositoryItemZoomTrackBar1"
         Me.RepositoryItemZoomTrackBar1.ScrollThumbStyle = DevExpress.XtraEditors.Repository.ScrollThumbStyle.ArrowDownRight
         '
-        'btn_fechas
-        '
-        Me.btn_fechas.Caption = "X Fechas"
-        Me.btn_fechas.Glyph = Global.TechSoft.My.Resources.Resources.icon_sales_period_month_16
-        Me.btn_fechas.Id = 56
-        Me.btn_fechas.LargeGlyph = Global.TechSoft.My.Resources.Resources.icon_sales_period_lifetime_32
-        Me.btn_fechas.Name = "btn_fechas"
-        '
-        'btn_estado
-        '
-        Me.btn_estado.Caption = "X Estado"
-        Me.btn_estado.Glyph = Global.TechSoft.My.Resources.Resources.icon_show_product_img_16
-        Me.btn_estado.Id = 57
-        Me.btn_estado.LargeGlyph = Global.TechSoft.My.Resources.Resources.icon_show_product_img_32
-        Me.btn_estado.Name = "btn_estado"
-        '
-        'btn_cliente
-        '
-        Me.btn_cliente.Caption = "X Cliente"
-        Me.btn_cliente.Glyph = Global.TechSoft.My.Resources.Resources.icon_card_16
-        Me.btn_cliente.Id = 58
-        Me.btn_cliente.LargeGlyph = Global.TechSoft.My.Resources.Resources.icon_card_32
-        Me.btn_cliente.Name = "btn_cliente"
-        '
         'RibbonPage1
         '
         Me.RibbonPage1.ContextSpecifier = Me.DocumentViewerRibbonController1
@@ -1477,23 +1450,23 @@ Partial Class Contenedor
         Me.RibbonStatusBar1.ItemLinks.Add(Me.BarButtonItem1)
         Me.RibbonStatusBar1.ItemLinks.Add(Me.PrintPreviewStaticItem2)
         Me.RibbonStatusBar1.ItemLinks.Add(Me.ZoomTrackBarEditItem1)
-        Me.RibbonStatusBar1.Location = New System.Drawing.Point(0, 722)
+        Me.RibbonStatusBar1.Location = New System.Drawing.Point(0, 521)
         Me.RibbonStatusBar1.Name = "RibbonStatusBar1"
         Me.RibbonStatusBar1.Ribbon = Me.RibbonControl1
-        Me.RibbonStatusBar1.Size = New System.Drawing.Size(849, 27)
+        Me.RibbonStatusBar1.Size = New System.Drawing.Size(890, 27)
         '
-        'Contenedor
+        'ContenedorReportClientes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(849, 749)
+        Me.ClientSize = New System.Drawing.Size(890, 548)
         Me.Controls.Add(Me.DocumentViewer1)
         Me.Controls.Add(Me.RibbonStatusBar1)
         Me.Controls.Add(Me.RibbonControl1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "Contenedor"
+        Me.Name = "ContenedorReportClientes"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Reporte Rango de Fechas"
+        Me.Text = "Reporte Clientes"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.DocumentViewerRibbonController1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RibbonControl1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1573,7 +1546,4 @@ Partial Class Contenedor
     Friend WithEvents PrintPreviewRibbonPageGroup7 As DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup
     Friend WithEvents PrintPreviewRibbonPageGroup8 As DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup
     Friend WithEvents RibbonStatusBar1 As DevExpress.XtraBars.Ribbon.RibbonStatusBar
-    Friend WithEvents btn_fechas As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents btn_estado As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents btn_cliente As DevExpress.XtraBars.BarButtonItem
 End Class

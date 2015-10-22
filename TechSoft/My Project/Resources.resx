@@ -124,17 +124,11 @@
   <data name="icon_edit_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-edit-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_buy_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-buy-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icon_data_panel_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-data-panel-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Deferred_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Deferred_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon_open_doc_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-open-doc-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_navigate_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-navigate-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,9 +169,6 @@
   <data name="icon_sales_period_month_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-sales-period-month-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_support_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-support-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icon_print_quick_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-print-quick-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -186,6 +177,9 @@
   </data>
   <data name="icon_panel_off_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-panel-off-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_close_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-close-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="List" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\List.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,14 +190,17 @@
   <data name="Recycle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Recycle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Icons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icons.res;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="icon_save_as_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-save-as-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_Hide_product_img_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-Hide-product-img-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_mobile_phone_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-mobile-phone-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_support_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-support-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_meeting_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-meeting-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,8 +211,8 @@
   <data name="icon_docking_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-docking-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_opportunities_unlike_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-opportunities-unlike-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_panel_right_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-panel-right-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_new_doc_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-new-doc-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -253,8 +250,8 @@
   <data name="icon_data_panel_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-data-panel-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_normal_bottom_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-normal-bottom-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_new_item_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-new-item-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_new_employee_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-new-employee-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -268,8 +265,8 @@
   <data name="icon_opportunities_medium_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-opportunities-medium-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_Hide_product_img_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-Hide-product-img-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_new_products_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-new-products-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_print_start_date_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-print-start-date-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -280,14 +277,20 @@
   <data name="icon_mapit_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-mapit-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icon_sales_period_year_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-sales-period-year-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_mapit_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-mapit-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fondo-claro-960x600" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo-claro-960x600.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_reset_changes_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-reset-changes-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_save_close_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-save-close-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_save_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-save-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -301,9 +304,6 @@
   <data name="icon_print_42x40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-print-42x40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_filter_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-filter-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icon_task_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-task-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -312,12 +312,6 @@
   </data>
   <data name="icon_walking_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-walking-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon_new_products_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-new-products-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon_panel_right_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-panel-right-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_save_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-save-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -337,8 +331,8 @@
   <data name="icon_opportunities_unlike_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-opportunities-unlike-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_print_quick_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-print-quick-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Jolt_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Jolt-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_print_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-print-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -385,9 +379,6 @@
   <data name="icon_Sort_by_Invoice_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-Sort-by-Invoice-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_reading_bottom_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-reading-bottom-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icon_email_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-email-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -399,9 +390,6 @@
   </data>
   <data name="icon_home_phone_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-home-phone-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon_open_doc_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-open-doc-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_card_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-card-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -418,17 +406,17 @@
   <data name="icon_opportunities_low_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-opportunities-low-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_open_doc_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-open-doc-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_new_employee_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-new-employee-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_mail_merge_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-mail-merge-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_walking_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-walking-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icons" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icons.res;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="icon_mapit_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-mapit-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Refresh_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Refresh_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -457,8 +445,8 @@
   <data name="icon_export_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-export-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon-check" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon-check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Closed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Closed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_sales_period_lifetime_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-sales-period-lifetime-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -466,8 +454,8 @@
   <data name="icon_expand_collapse_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-expand-collapse-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_expand_collapse_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-expand-collapse-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_opportunities_low_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-opportunities-low-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DX" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DX.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -493,20 +481,26 @@
   <data name="icon_panel_off_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-panel-off-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_mail_merge_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-mail-merge-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_expand_collapse_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-expand-collapse-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_opportunities_unlike_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-opportunities-unlike-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Search" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_print_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-print-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_support_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-support-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mrs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mrs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NormalPriority" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NormalPriority.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Jolt_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Jolt-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_buy_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-buy-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_pages_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-pages-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -535,8 +529,8 @@
   <data name="icon_page_prev_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-page-prev-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_opportunities_low_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-opportunities-low-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Icon-check" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon-check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MediumPriority" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MediumPriority.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -556,8 +550,11 @@
   <data name="icon_close_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-close-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mrs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mrs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_mobile_phone_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-mobile-phone-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_print_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-print-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NewTask_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NewTask_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -583,8 +580,11 @@
   <data name="icon_export_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-export-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_new_item_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-new-item-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_open_doc_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-open-doc-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_new_products_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-new-products-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_Sort_by_OrderDate_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-Sort-by-OrderDate-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -604,20 +604,17 @@
   <data name="icon_cost_analysis_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-cost-analysis-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_panel_bottom_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-panel-bottom-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_filter_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-filter-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_close_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-close-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon_support_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-support-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_normal_bottom_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-normal-bottom-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_new_customers_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-new-customers-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_save_close_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-save-close-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_reading_bottom_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-reading-bottom-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_redo_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-redo-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -637,11 +634,17 @@
   <data name="icon_opportunities_medium_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-opportunities-medium-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_new_products_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-new-products-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_new_employee_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-new-employee-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Closed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Closed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_panel_bottom_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-panel-bottom-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_print_quick_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-print-quick-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_Hide_product_img_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-Hide-product-img-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_show_product_img_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-show-product-img-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -661,7 +664,7 @@
   <data name="icon_page_next_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-page-next-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fondo-claro-960x600" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fondo-claro-960x600.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="exit-button-hi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit-button-hi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

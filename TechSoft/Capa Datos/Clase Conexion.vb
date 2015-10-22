@@ -6,7 +6,7 @@ Imports System.IO
 
 Public Class Clase_Conexion
     'Variables globales utilizadas en todo el programas
-    Public conn As New OdbcConnection("dsn=techsoft_local")
+    Public conn As New OdbcConnection("dsn=techsoft")
     Public cmd As New OdbcCommand
     Public lector As Odbc.OdbcDataReader
     Public trans As OdbcTransaction

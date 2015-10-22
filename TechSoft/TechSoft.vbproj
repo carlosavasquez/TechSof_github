@@ -103,6 +103,8 @@
     <Reference Include="DevExpress.XtraReports.v15.1.Extensions, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraRichEdit.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="My Project.Resources.Designer.vb">
       <HintPath>..\..\Biblioteca de clases\Biblioteca de clases\obj\Debug\TempPE\My Project.Resources.Designer.vb.dll</HintPath>
     </Reference>
@@ -116,6 +118,7 @@
     <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
     <Reference Include="System.Security" />
     <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -282,16 +285,46 @@
     <Compile Include="Reportes\Contenedor.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Reportes\ContenedorReportClientes.Designer.vb">
+      <DependentUpon>ContenedorReportClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ContenedorReportClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\ContenedorReportEstados.Designer.vb">
+      <DependentUpon>ContenedorReportEstados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ContenedorReportEstados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteCaso.Designer.vb">
+      <DependentUpon>ReporteCaso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ReporteCaso.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteClientesIP.Designer.vb">
+      <DependentUpon>ReporteClientesIP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ReporteClientesIP.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteEstadoIP.Designer.vb">
+      <DependentUpon>ReporteEstadoIP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ReporteEstadoIP.vb">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reportes\ReporteFechas.Designer.vb">
       <DependentUpon>ReporteFechas.vb</DependentUpon>
     </Compile>
     <Compile Include="Reportes\ReporteFechas.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Reportes\XtraReport3.Designer.vb">
-      <DependentUpon>XtraReport3.vb</DependentUpon>
+    <Compile Include="Reportes\ReporteFechasIP.Designer.vb">
+      <DependentUpon>ReporteFechasIP.vb</DependentUpon>
     </Compile>
-    <Compile Include="Reportes\XtraReport3.vb">
+    <Compile Include="Reportes\ReporteFechasIP.vb">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -372,11 +405,26 @@
     <EmbeddedResource Include="Reportes\Contenedor.resx">
       <DependentUpon>Contenedor.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ContenedorReportClientes.resx">
+      <DependentUpon>ContenedorReportClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ContenedorReportEstados.resx">
+      <DependentUpon>ContenedorReportEstados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ReporteCaso.resx">
+      <DependentUpon>ReporteCaso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ReporteClientesIP.resx">
+      <DependentUpon>ReporteClientesIP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ReporteEstadoIP.resx">
+      <DependentUpon>ReporteEstadoIP.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reportes\ReporteFechas.resx">
       <DependentUpon>ReporteFechas.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Reportes\XtraReport3.resx">
-      <DependentUpon>XtraReport3.vb</DependentUpon>
+    <EmbeddedResource Include="Reportes\ReporteFechasIP.resx">
+      <DependentUpon>ReporteFechasIP.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -980,6 +1028,7 @@
     <None Include="Resources\fondo-claro-960x600.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\exit-button-hi.png" />
     <Content Include="services.ico" />
   </ItemGroup>
   <ItemGroup>

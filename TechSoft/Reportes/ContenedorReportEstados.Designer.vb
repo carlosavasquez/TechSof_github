@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Contenedor
+Partial Class ContenedorReportEstados
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -23,154 +23,154 @@ Partial Class Contenedor
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim SuperToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem1 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip3 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem3 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem3 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip4 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem4 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem4 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip5 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem5 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem5 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip6 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem6 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem6 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip7 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem7 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem7 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip8 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem8 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem8 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip9 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem9 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem9 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip10 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem10 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem10 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip11 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem11 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem11 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip12 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem12 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem12 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip13 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem13 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem13 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip14 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem14 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem14 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip15 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem15 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem15 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip16 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem16 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem16 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip17 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem17 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem17 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip18 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem18 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem18 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip19 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem19 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem19 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip20 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem20 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem20 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip21 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem21 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem21 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip22 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem22 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem22 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip23 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem23 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem23 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Contenedor))
-        Dim SuperToolTip24 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem24 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem24 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip25 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem25 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem25 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip26 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem26 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem26 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip27 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem27 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem27 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip28 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem28 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem28 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip29 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem29 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem29 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip30 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem30 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem30 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip31 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem31 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem31 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip32 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem32 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem32 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip33 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem33 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem33 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip34 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem34 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem34 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip35 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem35 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem35 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip36 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem36 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem36 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip37 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem37 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem37 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip38 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem38 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem38 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip39 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem39 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem39 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip40 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem40 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem40 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip41 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem41 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem41 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip42 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem42 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem42 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip43 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem43 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem43 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip44 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem44 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem44 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip45 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem45 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem45 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip46 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem46 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem46 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip47 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem47 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem47 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip48 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem48 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem48 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip49 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem49 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem49 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip50 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem50 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem50 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip51 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem51 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem51 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip52 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem52 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem52 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip53 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem53 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem53 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip54 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem54 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem54 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip55 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem55 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem55 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip56 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem56 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem56 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip57 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem57 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem57 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip58 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem58 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem58 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip59 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem59 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem59 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip60 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem60 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem60 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip61 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem61 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem61 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip62 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem62 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem62 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip63 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem63 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem63 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip64 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem64 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem64 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip65 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem65 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem65 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip66 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem66 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem66 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip67 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem67 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem67 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip68 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem68 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem68 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip69 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem69 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem69 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip70 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem70 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem70 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip71 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem71 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem71 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip72 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem72 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem72 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ContenedorReportEstados))
+        Dim SuperToolTip73 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem73 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem73 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip74 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem74 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem74 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip75 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem75 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem75 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip76 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem76 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem76 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip77 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem77 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem77 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip78 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem78 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem78 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip79 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem79 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem79 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip80 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem80 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem80 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip81 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem81 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem81 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip82 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem82 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem82 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip83 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem83 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem83 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip84 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem84 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem84 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip85 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem85 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem85 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip86 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem86 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem86 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip87 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem87 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem87 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip88 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem88 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem88 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip89 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem89 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem89 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip90 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem90 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem90 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip91 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem91 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem91 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip92 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem92 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem92 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip93 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem93 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem93 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip94 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem94 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem94 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip95 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem95 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem95 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip96 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem96 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem96 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip97 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem97 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem97 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip98 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem98 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem98 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
         Me.DocumentViewer1 = New DevExpress.XtraPrinting.Preview.DocumentViewer()
         Me.DocumentViewerRibbonController1 = New DevExpress.XtraPrinting.Preview.DocumentViewerRibbonController(Me.components)
         Me.RibbonControl1 = New DevExpress.XtraBars.Ribbon.RibbonControl()
@@ -231,9 +231,6 @@ Partial Class Contenedor
         Me.PrintPreviewStaticItem2 = New DevExpress.XtraPrinting.Preview.PrintPreviewStaticItem()
         Me.ZoomTrackBarEditItem1 = New DevExpress.XtraPrinting.Preview.ZoomTrackBarEditItem()
         Me.RepositoryItemZoomTrackBar1 = New DevExpress.XtraEditors.Repository.RepositoryItemZoomTrackBar()
-        Me.btn_fechas = New DevExpress.XtraBars.BarButtonItem()
-        Me.btn_estado = New DevExpress.XtraBars.BarButtonItem()
-        Me.btn_cliente = New DevExpress.XtraBars.BarButtonItem()
         Me.RibbonPage1 = New DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPage()
         Me.PrintPreviewRibbonPageGroup1 = New DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup()
         Me.PrintPreviewRibbonPageGroup2 = New DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup()
@@ -253,13 +250,11 @@ Partial Class Contenedor
         'DocumentViewer1
         '
         Me.DocumentViewer1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DocumentViewer1.DocumentSource = GetType(TechSoft.ReporteFechasIP)
+        Me.DocumentViewer1.DocumentSource = GetType(TechSoft.ReporteEstadoIP)
         Me.DocumentViewer1.IsMetric = True
         Me.DocumentViewer1.Location = New System.Drawing.Point(0, 141)
-        Me.DocumentViewer1.LookAndFeel.SkinName = "Office 2010 Blue"
-        Me.DocumentViewer1.LookAndFeel.UseDefaultLookAndFeel = False
         Me.DocumentViewer1.Name = "DocumentViewer1"
-        Me.DocumentViewer1.Size = New System.Drawing.Size(849, 581)
+        Me.DocumentViewer1.Size = New System.Drawing.Size(1020, 396)
         Me.DocumentViewer1.TabIndex = 0
         '
         'DocumentViewerRibbonController1
@@ -272,13 +267,13 @@ Partial Class Contenedor
         '
         Me.RibbonControl1.AutoHideEmptyItems = True
         Me.RibbonControl1.ExpandCollapseItem.Id = 0
-        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.PrintPreviewBarItem1, Me.PrintPreviewBarItem2, Me.PrintPreviewBarItem3, Me.PrintPreviewBarItem4, Me.PrintPreviewBarItem5, Me.PrintPreviewBarItem6, Me.PrintPreviewBarItem7, Me.PrintPreviewBarItem8, Me.PrintPreviewBarItem9, Me.PrintPreviewBarItem10, Me.PrintPreviewBarItem11, Me.PrintPreviewBarItem12, Me.PrintPreviewBarItem13, Me.PrintPreviewBarItem14, Me.PrintPreviewBarItem15, Me.PrintPreviewBarItem16, Me.PrintPreviewBarItem17, Me.PrintPreviewBarItem18, Me.PrintPreviewBarItem19, Me.PrintPreviewBarItem20, Me.PrintPreviewBarItem21, Me.PrintPreviewBarItem22, Me.PrintPreviewBarItem23, Me.PrintPreviewBarItem24, Me.PrintPreviewBarItem25, Me.PrintPreviewBarItem26, Me.PrintPreviewBarItem27, Me.PrintPreviewBarItem28, Me.PrintPreviewBarItem29, Me.PrintPreviewBarItem30, Me.PrintPreviewBarItem31, Me.PrintPreviewBarItem32, Me.PrintPreviewBarItem33, Me.PrintPreviewBarItem34, Me.PrintPreviewBarItem35, Me.PrintPreviewBarItem36, Me.PrintPreviewBarItem37, Me.PrintPreviewBarItem38, Me.PrintPreviewBarItem39, Me.PrintPreviewBarItem40, Me.PrintPreviewBarItem41, Me.PrintPreviewBarItem42, Me.PrintPreviewBarItem43, Me.PrintPreviewBarItem44, Me.PrintPreviewBarItem45, Me.PrintPreviewBarItem46, Me.PrintPreviewBarItem47, Me.PrintPreviewBarItem48, Me.PrintPreviewStaticItem1, Me.BarStaticItem1, Me.ProgressBarEditItem1, Me.PrintPreviewBarItem49, Me.BarButtonItem1, Me.PrintPreviewStaticItem2, Me.ZoomTrackBarEditItem1, Me.btn_fechas, Me.btn_estado, Me.btn_cliente})
+        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.PrintPreviewBarItem1, Me.PrintPreviewBarItem2, Me.PrintPreviewBarItem3, Me.PrintPreviewBarItem4, Me.PrintPreviewBarItem5, Me.PrintPreviewBarItem6, Me.PrintPreviewBarItem7, Me.PrintPreviewBarItem8, Me.PrintPreviewBarItem9, Me.PrintPreviewBarItem10, Me.PrintPreviewBarItem11, Me.PrintPreviewBarItem12, Me.PrintPreviewBarItem13, Me.PrintPreviewBarItem14, Me.PrintPreviewBarItem15, Me.PrintPreviewBarItem16, Me.PrintPreviewBarItem17, Me.PrintPreviewBarItem18, Me.PrintPreviewBarItem19, Me.PrintPreviewBarItem20, Me.PrintPreviewBarItem21, Me.PrintPreviewBarItem22, Me.PrintPreviewBarItem23, Me.PrintPreviewBarItem24, Me.PrintPreviewBarItem25, Me.PrintPreviewBarItem26, Me.PrintPreviewBarItem27, Me.PrintPreviewBarItem28, Me.PrintPreviewBarItem29, Me.PrintPreviewBarItem30, Me.PrintPreviewBarItem31, Me.PrintPreviewBarItem32, Me.PrintPreviewBarItem33, Me.PrintPreviewBarItem34, Me.PrintPreviewBarItem35, Me.PrintPreviewBarItem36, Me.PrintPreviewBarItem37, Me.PrintPreviewBarItem38, Me.PrintPreviewBarItem39, Me.PrintPreviewBarItem40, Me.PrintPreviewBarItem41, Me.PrintPreviewBarItem42, Me.PrintPreviewBarItem43, Me.PrintPreviewBarItem44, Me.PrintPreviewBarItem45, Me.PrintPreviewBarItem46, Me.PrintPreviewBarItem47, Me.PrintPreviewBarItem48, Me.PrintPreviewStaticItem1, Me.BarStaticItem1, Me.ProgressBarEditItem1, Me.PrintPreviewBarItem49, Me.BarButtonItem1, Me.PrintPreviewStaticItem2, Me.ZoomTrackBarEditItem1})
         Me.RibbonControl1.Location = New System.Drawing.Point(0, 0)
-        Me.RibbonControl1.MaxItemId = 59
+        Me.RibbonControl1.MaxItemId = 56
         Me.RibbonControl1.Name = "RibbonControl1"
         Me.RibbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.RibbonPage1})
         Me.RibbonControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemProgressBar1, Me.RepositoryItemZoomTrackBar1})
-        Me.RibbonControl1.Size = New System.Drawing.Size(849, 141)
+        Me.RibbonControl1.Size = New System.Drawing.Size(1020, 141)
         Me.RibbonControl1.StatusBar = Me.RibbonStatusBar1
         Me.RibbonControl1.TransparentEditors = True
         '
@@ -293,15 +288,15 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem1.Id = 1
         Me.PrintPreviewBarItem1.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_DocumentMapLarge
         Me.PrintPreviewBarItem1.Name = "PrintPreviewBarItem1"
-        SuperToolTip1.FixedTooltipWidth = True
-        ToolTipTitleItem1.Text = "Mapa del Documento"
-        ToolTipItem1.LeftIndent = 6
-        ToolTipItem1.Text = "Abre el mapa del documento, permitiendo la navegación a través del documento por " & _
+        SuperToolTip50.FixedTooltipWidth = True
+        ToolTipTitleItem50.Text = "Mapa del Documento"
+        ToolTipItem50.LeftIndent = 6
+        ToolTipItem50.Text = "Abre el mapa del documento, permitiendo la navegación a través del documento por " & _
     "su estructura."
-        SuperToolTip1.Items.Add(ToolTipTitleItem1)
-        SuperToolTip1.Items.Add(ToolTipItem1)
-        SuperToolTip1.MaxWidth = 210
-        Me.PrintPreviewBarItem1.SuperTip = SuperToolTip1
+        SuperToolTip50.Items.Add(ToolTipTitleItem50)
+        SuperToolTip50.Items.Add(ToolTipItem50)
+        SuperToolTip50.MaxWidth = 210
+        Me.PrintPreviewBarItem1.SuperTip = SuperToolTip50
         '
         'PrintPreviewBarItem2
         '
@@ -314,14 +309,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem2.Id = 2
         Me.PrintPreviewBarItem2.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ParametersLarge
         Me.PrintPreviewBarItem2.Name = "PrintPreviewBarItem2"
-        SuperToolTip2.FixedTooltipWidth = True
-        ToolTipTitleItem2.Text = "Parámetros"
-        ToolTipItem2.LeftIndent = 6
-        ToolTipItem2.Text = "Abrir el panel de Parámetros, permitiendo la edición de los mismos."
-        SuperToolTip2.Items.Add(ToolTipTitleItem2)
-        SuperToolTip2.Items.Add(ToolTipItem2)
-        SuperToolTip2.MaxWidth = 210
-        Me.PrintPreviewBarItem2.SuperTip = SuperToolTip2
+        SuperToolTip51.FixedTooltipWidth = True
+        ToolTipTitleItem51.Text = "Parámetros"
+        ToolTipItem51.LeftIndent = 6
+        ToolTipItem51.Text = "Abrir el panel de Parámetros, permitiendo la edición de los mismos."
+        SuperToolTip51.Items.Add(ToolTipTitleItem51)
+        SuperToolTip51.Items.Add(ToolTipItem51)
+        SuperToolTip51.MaxWidth = 210
+        Me.PrintPreviewBarItem2.SuperTip = SuperToolTip51
         '
         'PrintPreviewBarItem3
         '
@@ -334,14 +329,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem3.Id = 3
         Me.PrintPreviewBarItem3.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_FindLarge
         Me.PrintPreviewBarItem3.Name = "PrintPreviewBarItem3"
-        SuperToolTip3.FixedTooltipWidth = True
-        ToolTipTitleItem3.Text = "Buscar"
-        ToolTipItem3.LeftIndent = 6
-        ToolTipItem3.Text = "Muestra el diálogo para buscar texto en el documento."
-        SuperToolTip3.Items.Add(ToolTipTitleItem3)
-        SuperToolTip3.Items.Add(ToolTipItem3)
-        SuperToolTip3.MaxWidth = 210
-        Me.PrintPreviewBarItem3.SuperTip = SuperToolTip3
+        SuperToolTip52.FixedTooltipWidth = True
+        ToolTipTitleItem52.Text = "Buscar"
+        ToolTipItem52.LeftIndent = 6
+        ToolTipItem52.Text = "Muestra el diálogo para buscar texto en el documento."
+        SuperToolTip52.Items.Add(ToolTipTitleItem52)
+        SuperToolTip52.Items.Add(ToolTipItem52)
+        SuperToolTip52.MaxWidth = 210
+        Me.PrintPreviewBarItem3.SuperTip = SuperToolTip52
         '
         'PrintPreviewBarItem4
         '
@@ -354,14 +349,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem4.Id = 4
         Me.PrintPreviewBarItem4.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ThumbnailsLarge
         Me.PrintPreviewBarItem4.Name = "PrintPreviewBarItem4"
-        SuperToolTip4.FixedTooltipWidth = True
-        ToolTipTitleItem4.Text = "Thumbnails"
-        ToolTipItem4.LeftIndent = 6
-        ToolTipItem4.Text = "Open the Thumbnails, which allows you to navigate through the document."
-        SuperToolTip4.Items.Add(ToolTipTitleItem4)
-        SuperToolTip4.Items.Add(ToolTipItem4)
-        SuperToolTip4.MaxWidth = 210
-        Me.PrintPreviewBarItem4.SuperTip = SuperToolTip4
+        SuperToolTip53.FixedTooltipWidth = True
+        ToolTipTitleItem53.Text = "Thumbnails"
+        ToolTipItem53.LeftIndent = 6
+        ToolTipItem53.Text = "Open the Thumbnails, which allows you to navigate through the document."
+        SuperToolTip53.Items.Add(ToolTipTitleItem53)
+        SuperToolTip53.Items.Add(ToolTipItem53)
+        SuperToolTip53.MaxWidth = 210
+        Me.PrintPreviewBarItem4.SuperTip = SuperToolTip53
         '
         'PrintPreviewBarItem5
         '
@@ -373,15 +368,15 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem5.Id = 5
         Me.PrintPreviewBarItem5.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_CustomizeLarge
         Me.PrintPreviewBarItem5.Name = "PrintPreviewBarItem5"
-        SuperToolTip5.FixedTooltipWidth = True
-        ToolTipTitleItem5.Text = "Opciones"
-        ToolTipItem5.LeftIndent = 6
-        ToolTipItem5.Text = "Abre el Editor de Impresión de Componentes, donde puede cambiar algunas opciones " & _
+        SuperToolTip54.FixedTooltipWidth = True
+        ToolTipTitleItem54.Text = "Opciones"
+        ToolTipItem54.LeftIndent = 6
+        ToolTipItem54.Text = "Abre el Editor de Impresión de Componentes, donde puede cambiar algunas opciones " & _
     "de la impresión."
-        SuperToolTip5.Items.Add(ToolTipTitleItem5)
-        SuperToolTip5.Items.Add(ToolTipItem5)
-        SuperToolTip5.MaxWidth = 210
-        Me.PrintPreviewBarItem5.SuperTip = SuperToolTip5
+        SuperToolTip54.Items.Add(ToolTipTitleItem54)
+        SuperToolTip54.Items.Add(ToolTipItem54)
+        SuperToolTip54.MaxWidth = 210
+        Me.PrintPreviewBarItem5.SuperTip = SuperToolTip54
         '
         'PrintPreviewBarItem6
         '
@@ -393,15 +388,15 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem6.Id = 6
         Me.PrintPreviewBarItem6.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_PrintLarge
         Me.PrintPreviewBarItem6.Name = "PrintPreviewBarItem6"
-        SuperToolTip6.FixedTooltipWidth = True
-        ToolTipTitleItem6.Text = "Imprimir (Ctrl+P)"
-        ToolTipItem6.LeftIndent = 6
-        ToolTipItem6.Text = "Selecciona una impresora, número de copias y otras opciones de impresión antes de" & _
+        SuperToolTip55.FixedTooltipWidth = True
+        ToolTipTitleItem55.Text = "Imprimir (Ctrl+P)"
+        ToolTipItem55.LeftIndent = 6
+        ToolTipItem55.Text = "Selecciona una impresora, número de copias y otras opciones de impresión antes de" & _
     " imprimir."
-        SuperToolTip6.Items.Add(ToolTipTitleItem6)
-        SuperToolTip6.Items.Add(ToolTipItem6)
-        SuperToolTip6.MaxWidth = 210
-        Me.PrintPreviewBarItem6.SuperTip = SuperToolTip6
+        SuperToolTip55.Items.Add(ToolTipTitleItem55)
+        SuperToolTip55.Items.Add(ToolTipItem55)
+        SuperToolTip55.MaxWidth = 210
+        Me.PrintPreviewBarItem6.SuperTip = SuperToolTip55
         '
         'PrintPreviewBarItem7
         '
@@ -413,14 +408,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem7.Id = 7
         Me.PrintPreviewBarItem7.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_PrintDirectLarge
         Me.PrintPreviewBarItem7.Name = "PrintPreviewBarItem7"
-        SuperToolTip7.FixedTooltipWidth = True
-        ToolTipTitleItem7.Text = "Impresión Rápida"
-        ToolTipItem7.LeftIndent = 6
-        ToolTipItem7.Text = "Envié el documento directamente a la impresora por defecto sin cambios."
-        SuperToolTip7.Items.Add(ToolTipTitleItem7)
-        SuperToolTip7.Items.Add(ToolTipItem7)
-        SuperToolTip7.MaxWidth = 210
-        Me.PrintPreviewBarItem7.SuperTip = SuperToolTip7
+        SuperToolTip56.FixedTooltipWidth = True
+        ToolTipTitleItem56.Text = "Impresión Rápida"
+        ToolTipItem56.LeftIndent = 6
+        ToolTipItem56.Text = "Envié el documento directamente a la impresora por defecto sin cambios."
+        SuperToolTip56.Items.Add(ToolTipTitleItem56)
+        SuperToolTip56.Items.Add(ToolTipItem56)
+        SuperToolTip56.MaxWidth = 210
+        Me.PrintPreviewBarItem7.SuperTip = SuperToolTip56
         '
         'PrintPreviewBarItem8
         '
@@ -430,14 +425,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem8.Enabled = False
         Me.PrintPreviewBarItem8.Id = 8
         Me.PrintPreviewBarItem8.Name = "PrintPreviewBarItem8"
-        SuperToolTip8.FixedTooltipWidth = True
-        ToolTipTitleItem8.Text = "Configurar Página"
-        ToolTipItem8.LeftIndent = 6
-        ToolTipItem8.Text = "Mostrar la ventana de Configuración de Página."
-        SuperToolTip8.Items.Add(ToolTipTitleItem8)
-        SuperToolTip8.Items.Add(ToolTipItem8)
-        SuperToolTip8.MaxWidth = 210
-        Me.PrintPreviewBarItem8.SuperTip = SuperToolTip8
+        SuperToolTip57.FixedTooltipWidth = True
+        ToolTipTitleItem57.Text = "Configurar Página"
+        ToolTipItem57.LeftIndent = 6
+        ToolTipItem57.Text = "Mostrar la ventana de Configuración de Página."
+        SuperToolTip57.Items.Add(ToolTipTitleItem57)
+        SuperToolTip57.Items.Add(ToolTipItem57)
+        SuperToolTip57.MaxWidth = 210
+        Me.PrintPreviewBarItem8.SuperTip = SuperToolTip57
         '
         'PrintPreviewBarItem9
         '
@@ -449,14 +444,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem9.Id = 9
         Me.PrintPreviewBarItem9.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_EditPageHFLarge
         Me.PrintPreviewBarItem9.Name = "PrintPreviewBarItem9"
-        SuperToolTip9.FixedTooltipWidth = True
-        ToolTipTitleItem9.Text = "Cabecera y Pie"
-        ToolTipItem9.LeftIndent = 6
-        ToolTipItem9.Text = "Editar la cabecera y el pie del documento."
-        SuperToolTip9.Items.Add(ToolTipTitleItem9)
-        SuperToolTip9.Items.Add(ToolTipItem9)
-        SuperToolTip9.MaxWidth = 210
-        Me.PrintPreviewBarItem9.SuperTip = SuperToolTip9
+        SuperToolTip58.FixedTooltipWidth = True
+        ToolTipTitleItem58.Text = "Cabecera y Pie"
+        ToolTipItem58.LeftIndent = 6
+        ToolTipItem58.Text = "Editar la cabecera y el pie del documento."
+        SuperToolTip58.Items.Add(ToolTipTitleItem58)
+        SuperToolTip58.Items.Add(ToolTipItem58)
+        SuperToolTip58.MaxWidth = 210
+        Me.PrintPreviewBarItem9.SuperTip = SuperToolTip58
         '
         'PrintPreviewBarItem10
         '
@@ -469,14 +464,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem10.Id = 10
         Me.PrintPreviewBarItem10.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ScaleLarge
         Me.PrintPreviewBarItem10.Name = "PrintPreviewBarItem10"
-        SuperToolTip10.FixedTooltipWidth = True
-        ToolTipTitleItem10.Text = "Escala"
-        ToolTipItem10.LeftIndent = 6
-        ToolTipItem10.Text = "Aumentar o disminuir la página impresa en un porcentaje de su tamaño original."
-        SuperToolTip10.Items.Add(ToolTipTitleItem10)
-        SuperToolTip10.Items.Add(ToolTipItem10)
-        SuperToolTip10.MaxWidth = 210
-        Me.PrintPreviewBarItem10.SuperTip = SuperToolTip10
+        SuperToolTip59.FixedTooltipWidth = True
+        ToolTipTitleItem59.Text = "Escala"
+        ToolTipItem59.LeftIndent = 6
+        ToolTipItem59.Text = "Aumentar o disminuir la página impresa en un porcentaje de su tamaño original."
+        SuperToolTip59.Items.Add(ToolTipTitleItem59)
+        SuperToolTip59.Items.Add(ToolTipItem59)
+        SuperToolTip59.MaxWidth = 210
+        Me.PrintPreviewBarItem10.SuperTip = SuperToolTip59
         '
         'PrintPreviewBarItem11
         '
@@ -491,14 +486,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem11.Id = 11
         Me.PrintPreviewBarItem11.Name = "PrintPreviewBarItem11"
         Me.PrintPreviewBarItem11.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText
-        SuperToolTip11.FixedTooltipWidth = True
-        ToolTipTitleItem11.Text = "Puntero de ratón"
-        ToolTipItem11.LeftIndent = 6
-        ToolTipItem11.Text = "Mostrar el puntero del ratón."
-        SuperToolTip11.Items.Add(ToolTipTitleItem11)
-        SuperToolTip11.Items.Add(ToolTipItem11)
-        SuperToolTip11.MaxWidth = 210
-        Me.PrintPreviewBarItem11.SuperTip = SuperToolTip11
+        SuperToolTip60.FixedTooltipWidth = True
+        ToolTipTitleItem60.Text = "Puntero de ratón"
+        ToolTipItem60.LeftIndent = 6
+        ToolTipItem60.Text = "Mostrar el puntero del ratón."
+        SuperToolTip60.Items.Add(ToolTipTitleItem60)
+        SuperToolTip60.Items.Add(ToolTipItem60)
+        SuperToolTip60.MaxWidth = 210
+        Me.PrintPreviewBarItem11.SuperTip = SuperToolTip60
         '
         'PrintPreviewBarItem12
         '
@@ -512,14 +507,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem12.Id = 12
         Me.PrintPreviewBarItem12.Name = "PrintPreviewBarItem12"
         Me.PrintPreviewBarItem12.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText
-        SuperToolTip12.FixedTooltipWidth = True
-        ToolTipTitleItem12.Text = "Herramienta de mano"
-        ToolTipItem12.LeftIndent = 6
-        ToolTipItem12.Text = "Invoca la herramienta Mano para desplazarse por el documento de forma manual."
-        SuperToolTip12.Items.Add(ToolTipTitleItem12)
-        SuperToolTip12.Items.Add(ToolTipItem12)
-        SuperToolTip12.MaxWidth = 210
-        Me.PrintPreviewBarItem12.SuperTip = SuperToolTip12
+        SuperToolTip61.FixedTooltipWidth = True
+        ToolTipTitleItem61.Text = "Herramienta de mano"
+        ToolTipItem61.LeftIndent = 6
+        ToolTipItem61.Text = "Invoca la herramienta Mano para desplazarse por el documento de forma manual."
+        SuperToolTip61.Items.Add(ToolTipTitleItem61)
+        SuperToolTip61.Items.Add(ToolTipItem61)
+        SuperToolTip61.MaxWidth = 210
+        Me.PrintPreviewBarItem12.SuperTip = SuperToolTip61
         '
         'PrintPreviewBarItem13
         '
@@ -533,16 +528,16 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem13.Id = 13
         Me.PrintPreviewBarItem13.Name = "PrintPreviewBarItem13"
         Me.PrintPreviewBarItem13.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText
-        SuperToolTip13.FixedTooltipWidth = True
-        ToolTipTitleItem13.Text = "Lupa"
-        ToolTipItem13.LeftIndent = 6
-        ToolTipItem13.Text = "Invoca la herramienta Lupa." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Haciendo clic una vez en el documento amplia la vi" & _
+        SuperToolTip62.FixedTooltipWidth = True
+        ToolTipTitleItem62.Text = "Lupa"
+        ToolTipItem62.LeftIndent = 6
+        ToolTipItem62.Text = "Invoca la herramienta Lupa." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Haciendo clic una vez en el documento amplia la vi" & _
     "sta para visualizar una sola página, si lo vuelve a hacer amplia la vista al 100" & _
     "% de su tamaño original."
-        SuperToolTip13.Items.Add(ToolTipTitleItem13)
-        SuperToolTip13.Items.Add(ToolTipItem13)
-        SuperToolTip13.MaxWidth = 210
-        Me.PrintPreviewBarItem13.SuperTip = SuperToolTip13
+        SuperToolTip62.Items.Add(ToolTipTitleItem62)
+        SuperToolTip62.Items.Add(ToolTipItem62)
+        SuperToolTip62.MaxWidth = 210
+        Me.PrintPreviewBarItem13.SuperTip = SuperToolTip62
         '
         'PrintPreviewBarItem14
         '
@@ -554,14 +549,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem14.Id = 14
         Me.PrintPreviewBarItem14.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ZoomOutLarge
         Me.PrintPreviewBarItem14.Name = "PrintPreviewBarItem14"
-        SuperToolTip14.FixedTooltipWidth = True
-        ToolTipTitleItem14.Text = "Alejar"
-        ToolTipItem14.LeftIndent = 6
-        ToolTipItem14.Text = "Alejarse para ver mas páginas a tamaño reducido."
-        SuperToolTip14.Items.Add(ToolTipTitleItem14)
-        SuperToolTip14.Items.Add(ToolTipItem14)
-        SuperToolTip14.MaxWidth = 210
-        Me.PrintPreviewBarItem14.SuperTip = SuperToolTip14
+        SuperToolTip63.FixedTooltipWidth = True
+        ToolTipTitleItem63.Text = "Alejar"
+        ToolTipItem63.LeftIndent = 6
+        ToolTipItem63.Text = "Alejarse para ver mas páginas a tamaño reducido."
+        SuperToolTip63.Items.Add(ToolTipTitleItem63)
+        SuperToolTip63.Items.Add(ToolTipItem63)
+        SuperToolTip63.MaxWidth = 210
+        Me.PrintPreviewBarItem14.SuperTip = SuperToolTip63
         '
         'PrintPreviewBarItem15
         '
@@ -573,14 +568,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem15.Id = 15
         Me.PrintPreviewBarItem15.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ZoomInLarge
         Me.PrintPreviewBarItem15.Name = "PrintPreviewBarItem15"
-        SuperToolTip15.FixedTooltipWidth = True
-        ToolTipTitleItem15.Text = "Acercar"
-        ToolTipItem15.LeftIndent = 6
-        ToolTipItem15.Text = "Acercarse para tener una vista mas cercana del documento."
-        SuperToolTip15.Items.Add(ToolTipTitleItem15)
-        SuperToolTip15.Items.Add(ToolTipItem15)
-        SuperToolTip15.MaxWidth = 210
-        Me.PrintPreviewBarItem15.SuperTip = SuperToolTip15
+        SuperToolTip64.FixedTooltipWidth = True
+        ToolTipTitleItem64.Text = "Acercar"
+        ToolTipItem64.LeftIndent = 6
+        ToolTipItem64.Text = "Acercarse para tener una vista mas cercana del documento."
+        SuperToolTip64.Items.Add(ToolTipTitleItem64)
+        SuperToolTip64.Items.Add(ToolTipItem64)
+        SuperToolTip64.MaxWidth = 210
+        Me.PrintPreviewBarItem15.SuperTip = SuperToolTip64
         '
         'PrintPreviewBarItem16
         '
@@ -593,14 +588,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem16.Id = 16
         Me.PrintPreviewBarItem16.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ZoomLarge
         Me.PrintPreviewBarItem16.Name = "PrintPreviewBarItem16"
-        SuperToolTip16.FixedTooltipWidth = True
-        ToolTipTitleItem16.Text = "Ampliación"
-        ToolTipItem16.LeftIndent = 6
-        ToolTipItem16.Text = "Cambia el nivel de zoom de la vista preliminar del documento."
-        SuperToolTip16.Items.Add(ToolTipTitleItem16)
-        SuperToolTip16.Items.Add(ToolTipItem16)
-        SuperToolTip16.MaxWidth = 210
-        Me.PrintPreviewBarItem16.SuperTip = SuperToolTip16
+        SuperToolTip65.FixedTooltipWidth = True
+        ToolTipTitleItem65.Text = "Ampliación"
+        ToolTipItem65.LeftIndent = 6
+        ToolTipItem65.Text = "Cambia el nivel de zoom de la vista preliminar del documento."
+        SuperToolTip65.Items.Add(ToolTipTitleItem65)
+        SuperToolTip65.Items.Add(ToolTipItem65)
+        SuperToolTip65.MaxWidth = 210
+        Me.PrintPreviewBarItem16.SuperTip = SuperToolTip65
         '
         'PrintPreviewBarItem17
         '
@@ -612,14 +607,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem17.Id = 17
         Me.PrintPreviewBarItem17.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ShowFirstPageLarge
         Me.PrintPreviewBarItem17.Name = "PrintPreviewBarItem17"
-        SuperToolTip17.FixedTooltipWidth = True
-        ToolTipTitleItem17.Text = "Primera página (Ctrl+Inicio)"
-        ToolTipItem17.LeftIndent = 6
-        ToolTipItem17.Text = "Desplazarse a la primera página del documento."
-        SuperToolTip17.Items.Add(ToolTipTitleItem17)
-        SuperToolTip17.Items.Add(ToolTipItem17)
-        SuperToolTip17.MaxWidth = 210
-        Me.PrintPreviewBarItem17.SuperTip = SuperToolTip17
+        SuperToolTip66.FixedTooltipWidth = True
+        ToolTipTitleItem66.Text = "Primera página (Ctrl+Inicio)"
+        ToolTipItem66.LeftIndent = 6
+        ToolTipItem66.Text = "Desplazarse a la primera página del documento."
+        SuperToolTip66.Items.Add(ToolTipTitleItem66)
+        SuperToolTip66.Items.Add(ToolTipItem66)
+        SuperToolTip66.MaxWidth = 210
+        Me.PrintPreviewBarItem17.SuperTip = SuperToolTip66
         '
         'PrintPreviewBarItem18
         '
@@ -631,14 +626,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem18.Id = 18
         Me.PrintPreviewBarItem18.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ShowPrevPageLarge
         Me.PrintPreviewBarItem18.Name = "PrintPreviewBarItem18"
-        SuperToolTip18.FixedTooltipWidth = True
-        ToolTipTitleItem18.Text = "Página anterior (RePág)"
-        ToolTipItem18.LeftIndent = 6
-        ToolTipItem18.Text = "Desplazarse a la página anterior del documento."
-        SuperToolTip18.Items.Add(ToolTipTitleItem18)
-        SuperToolTip18.Items.Add(ToolTipItem18)
-        SuperToolTip18.MaxWidth = 210
-        Me.PrintPreviewBarItem18.SuperTip = SuperToolTip18
+        SuperToolTip67.FixedTooltipWidth = True
+        ToolTipTitleItem67.Text = "Página anterior (RePág)"
+        ToolTipItem67.LeftIndent = 6
+        ToolTipItem67.Text = "Desplazarse a la página anterior del documento."
+        SuperToolTip67.Items.Add(ToolTipTitleItem67)
+        SuperToolTip67.Items.Add(ToolTipItem67)
+        SuperToolTip67.MaxWidth = 210
+        Me.PrintPreviewBarItem18.SuperTip = SuperToolTip67
         '
         'PrintPreviewBarItem19
         '
@@ -650,14 +645,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem19.Id = 19
         Me.PrintPreviewBarItem19.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ShowNextPageLarge
         Me.PrintPreviewBarItem19.Name = "PrintPreviewBarItem19"
-        SuperToolTip19.FixedTooltipWidth = True
-        ToolTipTitleItem19.Text = "Página siguiente (AvPág)"
-        ToolTipItem19.LeftIndent = 6
-        ToolTipItem19.Text = "Desplazarse a la página siguiente del documento."
-        SuperToolTip19.Items.Add(ToolTipTitleItem19)
-        SuperToolTip19.Items.Add(ToolTipItem19)
-        SuperToolTip19.MaxWidth = 210
-        Me.PrintPreviewBarItem19.SuperTip = SuperToolTip19
+        SuperToolTip68.FixedTooltipWidth = True
+        ToolTipTitleItem68.Text = "Página siguiente (AvPág)"
+        ToolTipItem68.LeftIndent = 6
+        ToolTipItem68.Text = "Desplazarse a la página siguiente del documento."
+        SuperToolTip68.Items.Add(ToolTipTitleItem68)
+        SuperToolTip68.Items.Add(ToolTipItem68)
+        SuperToolTip68.MaxWidth = 210
+        Me.PrintPreviewBarItem19.SuperTip = SuperToolTip68
         '
         'PrintPreviewBarItem20
         '
@@ -669,14 +664,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem20.Id = 20
         Me.PrintPreviewBarItem20.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ShowLastPageLarge
         Me.PrintPreviewBarItem20.Name = "PrintPreviewBarItem20"
-        SuperToolTip20.FixedTooltipWidth = True
-        ToolTipTitleItem20.Text = "Última página (Ctrl+Fin)"
-        ToolTipItem20.LeftIndent = 6
-        ToolTipItem20.Text = "Desplazarse a la última página del documento."
-        SuperToolTip20.Items.Add(ToolTipTitleItem20)
-        SuperToolTip20.Items.Add(ToolTipItem20)
-        SuperToolTip20.MaxWidth = 210
-        Me.PrintPreviewBarItem20.SuperTip = SuperToolTip20
+        SuperToolTip69.FixedTooltipWidth = True
+        ToolTipTitleItem69.Text = "Última página (Ctrl+Fin)"
+        ToolTipItem69.LeftIndent = 6
+        ToolTipItem69.Text = "Desplazarse a la última página del documento."
+        SuperToolTip69.Items.Add(ToolTipTitleItem69)
+        SuperToolTip69.Items.Add(ToolTipItem69)
+        SuperToolTip69.MaxWidth = 210
+        Me.PrintPreviewBarItem20.SuperTip = SuperToolTip69
         '
         'PrintPreviewBarItem21
         '
@@ -689,14 +684,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem21.Id = 21
         Me.PrintPreviewBarItem21.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_MultiplePagesLarge
         Me.PrintPreviewBarItem21.Name = "PrintPreviewBarItem21"
-        SuperToolTip21.FixedTooltipWidth = True
-        ToolTipTitleItem21.Text = "Ver varias páginas"
-        ToolTipItem21.LeftIndent = 6
-        ToolTipItem21.Text = "Escoge la distribución de las páginas a mostrar en la vista preliminar."
-        SuperToolTip21.Items.Add(ToolTipTitleItem21)
-        SuperToolTip21.Items.Add(ToolTipItem21)
-        SuperToolTip21.MaxWidth = 210
-        Me.PrintPreviewBarItem21.SuperTip = SuperToolTip21
+        SuperToolTip70.FixedTooltipWidth = True
+        ToolTipTitleItem70.Text = "Ver varias páginas"
+        ToolTipItem70.LeftIndent = 6
+        ToolTipItem70.Text = "Escoge la distribución de las páginas a mostrar en la vista preliminar."
+        SuperToolTip70.Items.Add(ToolTipTitleItem70)
+        SuperToolTip70.Items.Add(ToolTipItem70)
+        SuperToolTip70.MaxWidth = 210
+        Me.PrintPreviewBarItem21.SuperTip = SuperToolTip70
         '
         'PrintPreviewBarItem22
         '
@@ -709,14 +704,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem22.Id = 22
         Me.PrintPreviewBarItem22.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_FillBackgroundLarge
         Me.PrintPreviewBarItem22.Name = "PrintPreviewBarItem22"
-        SuperToolTip22.FixedTooltipWidth = True
-        ToolTipTitleItem22.Text = "Color de Fondo"
-        ToolTipItem22.LeftIndent = 6
-        ToolTipItem22.Text = "Escoge el color para usar como fondo de página."
-        SuperToolTip22.Items.Add(ToolTipTitleItem22)
-        SuperToolTip22.Items.Add(ToolTipItem22)
-        SuperToolTip22.MaxWidth = 210
-        Me.PrintPreviewBarItem22.SuperTip = SuperToolTip22
+        SuperToolTip71.FixedTooltipWidth = True
+        ToolTipTitleItem71.Text = "Color de Fondo"
+        ToolTipItem71.LeftIndent = 6
+        ToolTipItem71.Text = "Escoge el color para usar como fondo de página."
+        SuperToolTip71.Items.Add(ToolTipTitleItem71)
+        SuperToolTip71.Items.Add(ToolTipItem71)
+        SuperToolTip71.MaxWidth = 210
+        Me.PrintPreviewBarItem22.SuperTip = SuperToolTip71
         '
         'PrintPreviewBarItem23
         '
@@ -728,15 +723,15 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem23.Id = 23
         Me.PrintPreviewBarItem23.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_WatermarkLarge
         Me.PrintPreviewBarItem23.Name = "PrintPreviewBarItem23"
-        SuperToolTip23.FixedTooltipWidth = True
-        ToolTipTitleItem23.Text = "Filigrana"
-        ToolTipItem23.LeftIndent = 6
-        ToolTipItem23.Text = "Insertar una imagen o texto fantasma detrás del contenido de la página." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "A menu" & _
+        SuperToolTip72.FixedTooltipWidth = True
+        ToolTipTitleItem72.Text = "Filigrana"
+        ToolTipItem72.LeftIndent = 6
+        ToolTipItem72.Text = "Insertar una imagen o texto fantasma detrás del contenido de la página." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "A menu" & _
     "do se emplea para indicar que el documento debe recibir un trato especial."
-        SuperToolTip23.Items.Add(ToolTipTitleItem23)
-        SuperToolTip23.Items.Add(ToolTipItem23)
-        SuperToolTip23.MaxWidth = 210
-        Me.PrintPreviewBarItem23.SuperTip = SuperToolTip23
+        SuperToolTip72.Items.Add(ToolTipTitleItem72)
+        SuperToolTip72.Items.Add(ToolTipItem72)
+        SuperToolTip72.MaxWidth = 210
+        Me.PrintPreviewBarItem23.SuperTip = SuperToolTip72
         '
         'PrintPreviewBarItem24
         '
@@ -749,15 +744,15 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem24.Id = 24
         Me.PrintPreviewBarItem24.LargeGlyph = CType(resources.GetObject("PrintPreviewBarItem24.LargeGlyph"), System.Drawing.Image)
         Me.PrintPreviewBarItem24.Name = "PrintPreviewBarItem24"
-        SuperToolTip24.FixedTooltipWidth = True
-        ToolTipTitleItem24.Text = "Exportar como..."
-        ToolTipItem24.LeftIndent = 6
-        ToolTipItem24.Text = "Exportar el documento actual a uno de los formatos soportados y guardar en disco." & _
+        SuperToolTip73.FixedTooltipWidth = True
+        ToolTipTitleItem73.Text = "Exportar como..."
+        ToolTipItem73.LeftIndent = 6
+        ToolTipItem73.Text = "Exportar el documento actual a uno de los formatos soportados y guardar en disco." & _
     ""
-        SuperToolTip24.Items.Add(ToolTipTitleItem24)
-        SuperToolTip24.Items.Add(ToolTipItem24)
-        SuperToolTip24.MaxWidth = 210
-        Me.PrintPreviewBarItem24.SuperTip = SuperToolTip24
+        SuperToolTip73.Items.Add(ToolTipTitleItem73)
+        SuperToolTip73.Items.Add(ToolTipItem73)
+        SuperToolTip73.MaxWidth = 210
+        Me.PrintPreviewBarItem24.SuperTip = SuperToolTip73
         '
         'PrintPreviewBarItem25
         '
@@ -770,15 +765,15 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem25.Id = 25
         Me.PrintPreviewBarItem25.LargeGlyph = CType(resources.GetObject("PrintPreviewBarItem25.LargeGlyph"), System.Drawing.Image)
         Me.PrintPreviewBarItem25.Name = "PrintPreviewBarItem25"
-        SuperToolTip25.FixedTooltipWidth = True
-        ToolTipTitleItem25.Text = "E-Mail Como..."
-        ToolTipItem25.LeftIndent = 6
-        ToolTipItem25.Text = "Exportar el documento actual a uno de los formatos soportados y enviarlo como un " & _
+        SuperToolTip74.FixedTooltipWidth = True
+        ToolTipTitleItem74.Text = "E-Mail Como..."
+        ToolTipItem74.LeftIndent = 6
+        ToolTipItem74.Text = "Exportar el documento actual a uno de los formatos soportados y enviarlo como un " & _
     "adjunto por correo electrónico."
-        SuperToolTip25.Items.Add(ToolTipTitleItem25)
-        SuperToolTip25.Items.Add(ToolTipItem25)
-        SuperToolTip25.MaxWidth = 210
-        Me.PrintPreviewBarItem25.SuperTip = SuperToolTip25
+        SuperToolTip74.Items.Add(ToolTipTitleItem74)
+        SuperToolTip74.Items.Add(ToolTipItem74)
+        SuperToolTip74.MaxWidth = 210
+        Me.PrintPreviewBarItem25.SuperTip = SuperToolTip74
         '
         'PrintPreviewBarItem26
         '
@@ -790,14 +785,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem26.Id = 26
         Me.PrintPreviewBarItem26.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ClosePreviewLarge
         Me.PrintPreviewBarItem26.Name = "PrintPreviewBarItem26"
-        SuperToolTip26.FixedTooltipWidth = True
-        ToolTipTitleItem26.Text = "Cerrar vista preliminar"
-        ToolTipItem26.LeftIndent = 6
-        ToolTipItem26.Text = "Cerrar la vista preliminar del documento."
-        SuperToolTip26.Items.Add(ToolTipTitleItem26)
-        SuperToolTip26.Items.Add(ToolTipItem26)
-        SuperToolTip26.MaxWidth = 210
-        Me.PrintPreviewBarItem26.SuperTip = SuperToolTip26
+        SuperToolTip75.FixedTooltipWidth = True
+        ToolTipTitleItem75.Text = "Cerrar vista preliminar"
+        ToolTipItem75.LeftIndent = 6
+        ToolTipItem75.Text = "Cerrar la vista preliminar del documento."
+        SuperToolTip75.Items.Add(ToolTipTitleItem75)
+        SuperToolTip75.Items.Add(ToolTipItem75)
+        SuperToolTip75.MaxWidth = 210
+        Me.PrintPreviewBarItem26.SuperTip = SuperToolTip75
         '
         'PrintPreviewBarItem27
         '
@@ -810,14 +805,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem27.Id = 27
         Me.PrintPreviewBarItem27.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientationLarge
         Me.PrintPreviewBarItem27.Name = "PrintPreviewBarItem27"
-        SuperToolTip27.FixedTooltipWidth = True
-        ToolTipTitleItem27.Text = "Orientación de la Página"
-        ToolTipItem27.LeftIndent = 6
-        ToolTipItem27.Text = "Cambia la orientación entre vertical y horizontal."
-        SuperToolTip27.Items.Add(ToolTipTitleItem27)
-        SuperToolTip27.Items.Add(ToolTipItem27)
-        SuperToolTip27.MaxWidth = 210
-        Me.PrintPreviewBarItem27.SuperTip = SuperToolTip27
+        SuperToolTip76.FixedTooltipWidth = True
+        ToolTipTitleItem76.Text = "Orientación de la Página"
+        ToolTipItem76.LeftIndent = 6
+        ToolTipItem76.Text = "Cambia la orientación entre vertical y horizontal."
+        SuperToolTip76.Items.Add(ToolTipTitleItem76)
+        SuperToolTip76.Items.Add(ToolTipItem76)
+        SuperToolTip76.MaxWidth = 210
+        Me.PrintPreviewBarItem27.SuperTip = SuperToolTip76
         '
         'PrintPreviewBarItem28
         '
@@ -830,14 +825,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem28.Id = 28
         Me.PrintPreviewBarItem28.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_PaperSizeLarge
         Me.PrintPreviewBarItem28.Name = "PrintPreviewBarItem28"
-        SuperToolTip28.FixedTooltipWidth = True
-        ToolTipTitleItem28.Text = "Tamaño de página"
-        ToolTipItem28.LeftIndent = 6
-        ToolTipItem28.Text = "Escoge un tamaño de papel."
-        SuperToolTip28.Items.Add(ToolTipTitleItem28)
-        SuperToolTip28.Items.Add(ToolTipItem28)
-        SuperToolTip28.MaxWidth = 210
-        Me.PrintPreviewBarItem28.SuperTip = SuperToolTip28
+        SuperToolTip77.FixedTooltipWidth = True
+        ToolTipTitleItem77.Text = "Tamaño de página"
+        ToolTipItem77.LeftIndent = 6
+        ToolTipItem77.Text = "Escoge un tamaño de papel."
+        SuperToolTip77.Items.Add(ToolTipTitleItem77)
+        SuperToolTip77.Items.Add(ToolTipItem77)
+        SuperToolTip77.MaxWidth = 210
+        Me.PrintPreviewBarItem28.SuperTip = SuperToolTip77
         '
         'PrintPreviewBarItem29
         '
@@ -850,15 +845,15 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem29.Id = 29
         Me.PrintPreviewBarItem29.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsLarge
         Me.PrintPreviewBarItem29.Name = "PrintPreviewBarItem29"
-        SuperToolTip29.FixedTooltipWidth = True
-        ToolTipTitleItem29.Text = "Márgenes de Página"
-        ToolTipItem29.LeftIndent = 6
-        ToolTipItem29.Text = "Selecciona los tamaños de los márgenes para todo el documento." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Para aplicar un" & _
+        SuperToolTip78.FixedTooltipWidth = True
+        ToolTipTitleItem78.Text = "Márgenes de Página"
+        ToolTipItem78.LeftIndent = 6
+        ToolTipItem78.Text = "Selecciona los tamaños de los márgenes para todo el documento." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Para aplicar un" & _
     " tamaño personalizado, haga clic en Márgenes personalizados."
-        SuperToolTip29.Items.Add(ToolTipTitleItem29)
-        SuperToolTip29.Items.Add(ToolTipItem29)
-        SuperToolTip29.MaxWidth = 210
-        Me.PrintPreviewBarItem29.SuperTip = SuperToolTip29
+        SuperToolTip78.Items.Add(ToolTipTitleItem78)
+        SuperToolTip78.Items.Add(ToolTipItem78)
+        SuperToolTip78.MaxWidth = 210
+        Me.PrintPreviewBarItem29.SuperTip = SuperToolTip78
         '
         'PrintPreviewBarItem30
         '
@@ -871,14 +866,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem30.Id = 30
         Me.PrintPreviewBarItem30.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_SendPdfLarge
         Me.PrintPreviewBarItem30.Name = "PrintPreviewBarItem30"
-        SuperToolTip30.FixedTooltipWidth = True
-        ToolTipTitleItem30.Text = "E-Mail Como PDF"
-        ToolTipItem30.LeftIndent = 6
-        ToolTipItem30.Text = "Exportar el documento a PDF y enviarlo como un adjunto."
-        SuperToolTip30.Items.Add(ToolTipTitleItem30)
-        SuperToolTip30.Items.Add(ToolTipItem30)
-        SuperToolTip30.MaxWidth = 210
-        Me.PrintPreviewBarItem30.SuperTip = SuperToolTip30
+        SuperToolTip79.FixedTooltipWidth = True
+        ToolTipTitleItem79.Text = "E-Mail Como PDF"
+        ToolTipItem79.LeftIndent = 6
+        ToolTipItem79.Text = "Exportar el documento a PDF y enviarlo como un adjunto."
+        SuperToolTip79.Items.Add(ToolTipTitleItem79)
+        SuperToolTip79.Items.Add(ToolTipItem79)
+        SuperToolTip79.MaxWidth = 210
+        Me.PrintPreviewBarItem30.SuperTip = SuperToolTip79
         '
         'PrintPreviewBarItem31
         '
@@ -891,14 +886,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem31.Id = 31
         Me.PrintPreviewBarItem31.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_SendTxtLarge
         Me.PrintPreviewBarItem31.Name = "PrintPreviewBarItem31"
-        SuperToolTip31.FixedTooltipWidth = True
-        ToolTipTitleItem31.Text = "E-Mail Como Texto"
-        ToolTipItem31.LeftIndent = 6
-        ToolTipItem31.Text = "Exportar el documento a texto y enviarlo por correo electrónico."
-        SuperToolTip31.Items.Add(ToolTipTitleItem31)
-        SuperToolTip31.Items.Add(ToolTipItem31)
-        SuperToolTip31.MaxWidth = 210
-        Me.PrintPreviewBarItem31.SuperTip = SuperToolTip31
+        SuperToolTip80.FixedTooltipWidth = True
+        ToolTipTitleItem80.Text = "E-Mail Como Texto"
+        ToolTipItem80.LeftIndent = 6
+        ToolTipItem80.Text = "Exportar el documento a texto y enviarlo por correo electrónico."
+        SuperToolTip80.Items.Add(ToolTipTitleItem80)
+        SuperToolTip80.Items.Add(ToolTipItem80)
+        SuperToolTip80.MaxWidth = 210
+        Me.PrintPreviewBarItem31.SuperTip = SuperToolTip80
         '
         'PrintPreviewBarItem32
         '
@@ -911,14 +906,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem32.Id = 32
         Me.PrintPreviewBarItem32.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_SendCsvLarge
         Me.PrintPreviewBarItem32.Name = "PrintPreviewBarItem32"
-        SuperToolTip32.FixedTooltipWidth = True
-        ToolTipTitleItem32.Text = "E-Mail Como CSV"
-        ToolTipItem32.LeftIndent = 6
-        ToolTipItem32.Text = "Exportar el documento a CSV y enviarlo como un adjunto."
-        SuperToolTip32.Items.Add(ToolTipTitleItem32)
-        SuperToolTip32.Items.Add(ToolTipItem32)
-        SuperToolTip32.MaxWidth = 210
-        Me.PrintPreviewBarItem32.SuperTip = SuperToolTip32
+        SuperToolTip81.FixedTooltipWidth = True
+        ToolTipTitleItem81.Text = "E-Mail Como CSV"
+        ToolTipItem81.LeftIndent = 6
+        ToolTipItem81.Text = "Exportar el documento a CSV y enviarlo como un adjunto."
+        SuperToolTip81.Items.Add(ToolTipTitleItem81)
+        SuperToolTip81.Items.Add(ToolTipItem81)
+        SuperToolTip81.MaxWidth = 210
+        Me.PrintPreviewBarItem32.SuperTip = SuperToolTip81
         '
         'PrintPreviewBarItem33
         '
@@ -931,14 +926,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem33.Id = 33
         Me.PrintPreviewBarItem33.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_SendMhtLarge
         Me.PrintPreviewBarItem33.Name = "PrintPreviewBarItem33"
-        SuperToolTip33.FixedTooltipWidth = True
-        ToolTipTitleItem33.Text = "E-Mail Como MHT"
-        ToolTipItem33.LeftIndent = 6
-        ToolTipItem33.Text = "Exportar el documento a MHT y enviarlo como un adjunto."
-        SuperToolTip33.Items.Add(ToolTipTitleItem33)
-        SuperToolTip33.Items.Add(ToolTipItem33)
-        SuperToolTip33.MaxWidth = 210
-        Me.PrintPreviewBarItem33.SuperTip = SuperToolTip33
+        SuperToolTip82.FixedTooltipWidth = True
+        ToolTipTitleItem82.Text = "E-Mail Como MHT"
+        ToolTipItem82.LeftIndent = 6
+        ToolTipItem82.Text = "Exportar el documento a MHT y enviarlo como un adjunto."
+        SuperToolTip82.Items.Add(ToolTipTitleItem82)
+        SuperToolTip82.Items.Add(ToolTipItem82)
+        SuperToolTip82.MaxWidth = 210
+        Me.PrintPreviewBarItem33.SuperTip = SuperToolTip82
         '
         'PrintPreviewBarItem34
         '
@@ -951,14 +946,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem34.Id = 34
         Me.PrintPreviewBarItem34.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsLarge
         Me.PrintPreviewBarItem34.Name = "PrintPreviewBarItem34"
-        SuperToolTip34.FixedTooltipWidth = True
-        ToolTipTitleItem34.Text = "E-Mail Como XLS"
-        ToolTipItem34.LeftIndent = 6
-        ToolTipItem34.Text = "Exportar el documento a XLS y enviarlo como un adjunto."
-        SuperToolTip34.Items.Add(ToolTipTitleItem34)
-        SuperToolTip34.Items.Add(ToolTipItem34)
-        SuperToolTip34.MaxWidth = 210
-        Me.PrintPreviewBarItem34.SuperTip = SuperToolTip34
+        SuperToolTip83.FixedTooltipWidth = True
+        ToolTipTitleItem83.Text = "E-Mail Como XLS"
+        ToolTipItem83.LeftIndent = 6
+        ToolTipItem83.Text = "Exportar el documento a XLS y enviarlo como un adjunto."
+        SuperToolTip83.Items.Add(ToolTipTitleItem83)
+        SuperToolTip83.Items.Add(ToolTipItem83)
+        SuperToolTip83.MaxWidth = 210
+        Me.PrintPreviewBarItem34.SuperTip = SuperToolTip83
         '
         'PrintPreviewBarItem35
         '
@@ -971,14 +966,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem35.Id = 35
         Me.PrintPreviewBarItem35.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsxLarge
         Me.PrintPreviewBarItem35.Name = "PrintPreviewBarItem35"
-        SuperToolTip35.FixedTooltipWidth = True
-        ToolTipTitleItem35.Text = "XLSX como Correo Electrónico"
-        ToolTipItem35.LeftIndent = 6
-        ToolTipItem35.Text = "Exportar el documento a XLSX y adjuntarlo a un correo electrónico."
-        SuperToolTip35.Items.Add(ToolTipTitleItem35)
-        SuperToolTip35.Items.Add(ToolTipItem35)
-        SuperToolTip35.MaxWidth = 210
-        Me.PrintPreviewBarItem35.SuperTip = SuperToolTip35
+        SuperToolTip84.FixedTooltipWidth = True
+        ToolTipTitleItem84.Text = "XLSX como Correo Electrónico"
+        ToolTipItem84.LeftIndent = 6
+        ToolTipItem84.Text = "Exportar el documento a XLSX y adjuntarlo a un correo electrónico."
+        SuperToolTip84.Items.Add(ToolTipTitleItem84)
+        SuperToolTip84.Items.Add(ToolTipItem84)
+        SuperToolTip84.MaxWidth = 210
+        Me.PrintPreviewBarItem35.SuperTip = SuperToolTip84
         '
         'PrintPreviewBarItem36
         '
@@ -991,14 +986,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem36.Id = 36
         Me.PrintPreviewBarItem36.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_SendRtfLarge
         Me.PrintPreviewBarItem36.Name = "PrintPreviewBarItem36"
-        SuperToolTip36.FixedTooltipWidth = True
-        ToolTipTitleItem36.Text = "E-Mail Como RTF"
-        ToolTipItem36.LeftIndent = 6
-        ToolTipItem36.Text = "Exportar el documento a RTF y enviarlo como un adjunto."
-        SuperToolTip36.Items.Add(ToolTipTitleItem36)
-        SuperToolTip36.Items.Add(ToolTipItem36)
-        SuperToolTip36.MaxWidth = 210
-        Me.PrintPreviewBarItem36.SuperTip = SuperToolTip36
+        SuperToolTip85.FixedTooltipWidth = True
+        ToolTipTitleItem85.Text = "E-Mail Como RTF"
+        ToolTipItem85.LeftIndent = 6
+        ToolTipItem85.Text = "Exportar el documento a RTF y enviarlo como un adjunto."
+        SuperToolTip85.Items.Add(ToolTipTitleItem85)
+        SuperToolTip85.Items.Add(ToolTipItem85)
+        SuperToolTip85.MaxWidth = 210
+        Me.PrintPreviewBarItem36.SuperTip = SuperToolTip85
         '
         'PrintPreviewBarItem37
         '
@@ -1011,14 +1006,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem37.Id = 37
         Me.PrintPreviewBarItem37.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_SendGraphicLarge
         Me.PrintPreviewBarItem37.Name = "PrintPreviewBarItem37"
-        SuperToolTip37.FixedTooltipWidth = True
-        ToolTipTitleItem37.Text = "E-Mail Como Imagen"
-        ToolTipItem37.LeftIndent = 6
-        ToolTipItem37.Text = "Exportar el documento a una imagen y enviarlo como un adjunto."
-        SuperToolTip37.Items.Add(ToolTipTitleItem37)
-        SuperToolTip37.Items.Add(ToolTipItem37)
-        SuperToolTip37.MaxWidth = 210
-        Me.PrintPreviewBarItem37.SuperTip = SuperToolTip37
+        SuperToolTip86.FixedTooltipWidth = True
+        ToolTipTitleItem86.Text = "E-Mail Como Imagen"
+        ToolTipItem86.LeftIndent = 6
+        ToolTipItem86.Text = "Exportar el documento a una imagen y enviarlo como un adjunto."
+        SuperToolTip86.Items.Add(ToolTipTitleItem86)
+        SuperToolTip86.Items.Add(ToolTipItem86)
+        SuperToolTip86.MaxWidth = 210
+        Me.PrintPreviewBarItem37.SuperTip = SuperToolTip86
         '
         'PrintPreviewBarItem38
         '
@@ -1031,14 +1026,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem38.Id = 38
         Me.PrintPreviewBarItem38.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ExportPdfLarge
         Me.PrintPreviewBarItem38.Name = "PrintPreviewBarItem38"
-        SuperToolTip38.FixedTooltipWidth = True
-        ToolTipTitleItem38.Text = "Exportar a PDF"
-        ToolTipItem38.LeftIndent = 6
-        ToolTipItem38.Text = "Exportar el documento en formato PDF y guardarlo en disco."
-        SuperToolTip38.Items.Add(ToolTipTitleItem38)
-        SuperToolTip38.Items.Add(ToolTipItem38)
-        SuperToolTip38.MaxWidth = 210
-        Me.PrintPreviewBarItem38.SuperTip = SuperToolTip38
+        SuperToolTip87.FixedTooltipWidth = True
+        ToolTipTitleItem87.Text = "Exportar a PDF"
+        ToolTipItem87.LeftIndent = 6
+        ToolTipItem87.Text = "Exportar el documento en formato PDF y guardarlo en disco."
+        SuperToolTip87.Items.Add(ToolTipTitleItem87)
+        SuperToolTip87.Items.Add(ToolTipItem87)
+        SuperToolTip87.MaxWidth = 210
+        Me.PrintPreviewBarItem38.SuperTip = SuperToolTip87
         '
         'PrintPreviewBarItem39
         '
@@ -1051,14 +1046,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem39.Id = 39
         Me.PrintPreviewBarItem39.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ExportHtmLarge
         Me.PrintPreviewBarItem39.Name = "PrintPreviewBarItem39"
-        SuperToolTip39.FixedTooltipWidth = True
-        ToolTipTitleItem39.Text = "Exportar a HTML"
-        ToolTipItem39.LeftIndent = 6
-        ToolTipItem39.Text = "Exportar el documento en formato HTML y guardarlo en disco."
-        SuperToolTip39.Items.Add(ToolTipTitleItem39)
-        SuperToolTip39.Items.Add(ToolTipItem39)
-        SuperToolTip39.MaxWidth = 210
-        Me.PrintPreviewBarItem39.SuperTip = SuperToolTip39
+        SuperToolTip88.FixedTooltipWidth = True
+        ToolTipTitleItem88.Text = "Exportar a HTML"
+        ToolTipItem88.LeftIndent = 6
+        ToolTipItem88.Text = "Exportar el documento en formato HTML y guardarlo en disco."
+        SuperToolTip88.Items.Add(ToolTipTitleItem88)
+        SuperToolTip88.Items.Add(ToolTipItem88)
+        SuperToolTip88.MaxWidth = 210
+        Me.PrintPreviewBarItem39.SuperTip = SuperToolTip88
         '
         'PrintPreviewBarItem40
         '
@@ -1071,14 +1066,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem40.Id = 40
         Me.PrintPreviewBarItem40.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ExportTxtLarge
         Me.PrintPreviewBarItem40.Name = "PrintPreviewBarItem40"
-        SuperToolTip40.FixedTooltipWidth = True
-        ToolTipTitleItem40.Text = "Exportar a Texto"
-        ToolTipItem40.LeftIndent = 6
-        ToolTipItem40.Text = "Exportar el documento en formato de texto y guardarlo en disco."
-        SuperToolTip40.Items.Add(ToolTipTitleItem40)
-        SuperToolTip40.Items.Add(ToolTipItem40)
-        SuperToolTip40.MaxWidth = 210
-        Me.PrintPreviewBarItem40.SuperTip = SuperToolTip40
+        SuperToolTip89.FixedTooltipWidth = True
+        ToolTipTitleItem89.Text = "Exportar a Texto"
+        ToolTipItem89.LeftIndent = 6
+        ToolTipItem89.Text = "Exportar el documento en formato de texto y guardarlo en disco."
+        SuperToolTip89.Items.Add(ToolTipTitleItem89)
+        SuperToolTip89.Items.Add(ToolTipItem89)
+        SuperToolTip89.MaxWidth = 210
+        Me.PrintPreviewBarItem40.SuperTip = SuperToolTip89
         '
         'PrintPreviewBarItem41
         '
@@ -1091,14 +1086,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem41.Id = 41
         Me.PrintPreviewBarItem41.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ExportCsvLarge
         Me.PrintPreviewBarItem41.Name = "PrintPreviewBarItem41"
-        SuperToolTip41.FixedTooltipWidth = True
-        ToolTipTitleItem41.Text = "Exportar a CSV"
-        ToolTipItem41.LeftIndent = 6
-        ToolTipItem41.Text = "Exportar el documento en formato CSV y guardarlo en disco."
-        SuperToolTip41.Items.Add(ToolTipTitleItem41)
-        SuperToolTip41.Items.Add(ToolTipItem41)
-        SuperToolTip41.MaxWidth = 210
-        Me.PrintPreviewBarItem41.SuperTip = SuperToolTip41
+        SuperToolTip90.FixedTooltipWidth = True
+        ToolTipTitleItem90.Text = "Exportar a CSV"
+        ToolTipItem90.LeftIndent = 6
+        ToolTipItem90.Text = "Exportar el documento en formato CSV y guardarlo en disco."
+        SuperToolTip90.Items.Add(ToolTipTitleItem90)
+        SuperToolTip90.Items.Add(ToolTipItem90)
+        SuperToolTip90.MaxWidth = 210
+        Me.PrintPreviewBarItem41.SuperTip = SuperToolTip90
         '
         'PrintPreviewBarItem42
         '
@@ -1111,14 +1106,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem42.Id = 42
         Me.PrintPreviewBarItem42.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ExportMhtLarge
         Me.PrintPreviewBarItem42.Name = "PrintPreviewBarItem42"
-        SuperToolTip42.FixedTooltipWidth = True
-        ToolTipTitleItem42.Text = "Exportar a MHT"
-        ToolTipItem42.LeftIndent = 6
-        ToolTipItem42.Text = "Exportar el documento en formato MHT y guardarlo en disco."
-        SuperToolTip42.Items.Add(ToolTipTitleItem42)
-        SuperToolTip42.Items.Add(ToolTipItem42)
-        SuperToolTip42.MaxWidth = 210
-        Me.PrintPreviewBarItem42.SuperTip = SuperToolTip42
+        SuperToolTip91.FixedTooltipWidth = True
+        ToolTipTitleItem91.Text = "Exportar a MHT"
+        ToolTipItem91.LeftIndent = 6
+        ToolTipItem91.Text = "Exportar el documento en formato MHT y guardarlo en disco."
+        SuperToolTip91.Items.Add(ToolTipTitleItem91)
+        SuperToolTip91.Items.Add(ToolTipItem91)
+        SuperToolTip91.MaxWidth = 210
+        Me.PrintPreviewBarItem42.SuperTip = SuperToolTip91
         '
         'PrintPreviewBarItem43
         '
@@ -1131,14 +1126,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem43.Id = 43
         Me.PrintPreviewBarItem43.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsLarge
         Me.PrintPreviewBarItem43.Name = "PrintPreviewBarItem43"
-        SuperToolTip43.FixedTooltipWidth = True
-        ToolTipTitleItem43.Text = "Exportar a XLS"
-        ToolTipItem43.LeftIndent = 6
-        ToolTipItem43.Text = "Exportar el documento en formato XLS y guardarlo en disco."
-        SuperToolTip43.Items.Add(ToolTipTitleItem43)
-        SuperToolTip43.Items.Add(ToolTipItem43)
-        SuperToolTip43.MaxWidth = 210
-        Me.PrintPreviewBarItem43.SuperTip = SuperToolTip43
+        SuperToolTip92.FixedTooltipWidth = True
+        ToolTipTitleItem92.Text = "Exportar a XLS"
+        ToolTipItem92.LeftIndent = 6
+        ToolTipItem92.Text = "Exportar el documento en formato XLS y guardarlo en disco."
+        SuperToolTip92.Items.Add(ToolTipTitleItem92)
+        SuperToolTip92.Items.Add(ToolTipItem92)
+        SuperToolTip92.MaxWidth = 210
+        Me.PrintPreviewBarItem43.SuperTip = SuperToolTip92
         '
         'PrintPreviewBarItem44
         '
@@ -1151,14 +1146,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem44.Id = 44
         Me.PrintPreviewBarItem44.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsxLarge
         Me.PrintPreviewBarItem44.Name = "PrintPreviewBarItem44"
-        SuperToolTip44.FixedTooltipWidth = True
-        ToolTipTitleItem44.Text = "Exportar a XLSX"
-        ToolTipItem44.LeftIndent = 6
-        ToolTipItem44.Text = "Exportar el documento a XLSX y guardarlo en disco."
-        SuperToolTip44.Items.Add(ToolTipTitleItem44)
-        SuperToolTip44.Items.Add(ToolTipItem44)
-        SuperToolTip44.MaxWidth = 210
-        Me.PrintPreviewBarItem44.SuperTip = SuperToolTip44
+        SuperToolTip93.FixedTooltipWidth = True
+        ToolTipTitleItem93.Text = "Exportar a XLSX"
+        ToolTipItem93.LeftIndent = 6
+        ToolTipItem93.Text = "Exportar el documento a XLSX y guardarlo en disco."
+        SuperToolTip93.Items.Add(ToolTipTitleItem93)
+        SuperToolTip93.Items.Add(ToolTipItem93)
+        SuperToolTip93.MaxWidth = 210
+        Me.PrintPreviewBarItem44.SuperTip = SuperToolTip93
         '
         'PrintPreviewBarItem45
         '
@@ -1171,14 +1166,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem45.Id = 45
         Me.PrintPreviewBarItem45.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ExportRtfLarge
         Me.PrintPreviewBarItem45.Name = "PrintPreviewBarItem45"
-        SuperToolTip45.FixedTooltipWidth = True
-        ToolTipTitleItem45.Text = "Exportar a RTF"
-        ToolTipItem45.LeftIndent = 6
-        ToolTipItem45.Text = "Exportar el documento en formato RTF y guardarlo en disco."
-        SuperToolTip45.Items.Add(ToolTipTitleItem45)
-        SuperToolTip45.Items.Add(ToolTipItem45)
-        SuperToolTip45.MaxWidth = 210
-        Me.PrintPreviewBarItem45.SuperTip = SuperToolTip45
+        SuperToolTip94.FixedTooltipWidth = True
+        ToolTipTitleItem94.Text = "Exportar a RTF"
+        ToolTipItem94.LeftIndent = 6
+        ToolTipItem94.Text = "Exportar el documento en formato RTF y guardarlo en disco."
+        SuperToolTip94.Items.Add(ToolTipTitleItem94)
+        SuperToolTip94.Items.Add(ToolTipItem94)
+        SuperToolTip94.MaxWidth = 210
+        Me.PrintPreviewBarItem45.SuperTip = SuperToolTip94
         '
         'PrintPreviewBarItem46
         '
@@ -1191,14 +1186,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem46.Id = 46
         Me.PrintPreviewBarItem46.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_ExportGraphicLarge
         Me.PrintPreviewBarItem46.Name = "PrintPreviewBarItem46"
-        SuperToolTip46.FixedTooltipWidth = True
-        ToolTipTitleItem46.Text = "Exportar Imagen"
-        ToolTipItem46.LeftIndent = 6
-        ToolTipItem46.Text = "Exportar el documento en formato de imagen y guardarlo en disco."
-        SuperToolTip46.Items.Add(ToolTipTitleItem46)
-        SuperToolTip46.Items.Add(ToolTipItem46)
-        SuperToolTip46.MaxWidth = 210
-        Me.PrintPreviewBarItem46.SuperTip = SuperToolTip46
+        SuperToolTip95.FixedTooltipWidth = True
+        ToolTipTitleItem95.Text = "Exportar Imagen"
+        ToolTipItem95.LeftIndent = 6
+        ToolTipItem95.Text = "Exportar el documento en formato de imagen y guardarlo en disco."
+        SuperToolTip95.Items.Add(ToolTipTitleItem95)
+        SuperToolTip95.Items.Add(ToolTipItem95)
+        SuperToolTip95.MaxWidth = 210
+        Me.PrintPreviewBarItem46.SuperTip = SuperToolTip95
         '
         'PrintPreviewBarItem47
         '
@@ -1210,14 +1205,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem47.Id = 47
         Me.PrintPreviewBarItem47.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_OpenLarge
         Me.PrintPreviewBarItem47.Name = "PrintPreviewBarItem47"
-        SuperToolTip47.FixedTooltipWidth = True
-        ToolTipTitleItem47.Text = "Abrir (Ctrl + O)"
-        ToolTipItem47.LeftIndent = 6
-        ToolTipItem47.Text = "Abrir un documento."
-        SuperToolTip47.Items.Add(ToolTipTitleItem47)
-        SuperToolTip47.Items.Add(ToolTipItem47)
-        SuperToolTip47.MaxWidth = 210
-        Me.PrintPreviewBarItem47.SuperTip = SuperToolTip47
+        SuperToolTip96.FixedTooltipWidth = True
+        ToolTipTitleItem96.Text = "Abrir (Ctrl + O)"
+        ToolTipItem96.LeftIndent = 6
+        ToolTipItem96.Text = "Abrir un documento."
+        SuperToolTip96.Items.Add(ToolTipTitleItem96)
+        SuperToolTip96.Items.Add(ToolTipItem96)
+        SuperToolTip96.MaxWidth = 210
+        Me.PrintPreviewBarItem47.SuperTip = SuperToolTip96
         '
         'PrintPreviewBarItem48
         '
@@ -1229,14 +1224,14 @@ Partial Class Contenedor
         Me.PrintPreviewBarItem48.Id = 48
         Me.PrintPreviewBarItem48.LargeGlyph = Global.TechSoft.PrintRibbonControllerResources.RibbonPrintPreview_SaveLarge
         Me.PrintPreviewBarItem48.Name = "PrintPreviewBarItem48"
-        SuperToolTip48.FixedTooltipWidth = True
-        ToolTipTitleItem48.Text = "Guardar (Ctrl + S)"
-        ToolTipItem48.LeftIndent = 6
-        ToolTipItem48.Text = "Guardar el documento."
-        SuperToolTip48.Items.Add(ToolTipTitleItem48)
-        SuperToolTip48.Items.Add(ToolTipItem48)
-        SuperToolTip48.MaxWidth = 210
-        Me.PrintPreviewBarItem48.SuperTip = SuperToolTip48
+        SuperToolTip97.FixedTooltipWidth = True
+        ToolTipTitleItem97.Text = "Guardar (Ctrl + S)"
+        ToolTipItem97.LeftIndent = 6
+        ToolTipItem97.Text = "Guardar el documento."
+        SuperToolTip97.Items.Add(ToolTipTitleItem97)
+        SuperToolTip97.Items.Add(ToolTipItem97)
+        SuperToolTip97.MaxWidth = 210
+        Me.PrintPreviewBarItem48.SuperTip = SuperToolTip97
         '
         'PrintPreviewStaticItem1
         '
@@ -1320,30 +1315,6 @@ Partial Class Contenedor
         Me.RepositoryItemZoomTrackBar1.Name = "RepositoryItemZoomTrackBar1"
         Me.RepositoryItemZoomTrackBar1.ScrollThumbStyle = DevExpress.XtraEditors.Repository.ScrollThumbStyle.ArrowDownRight
         '
-        'btn_fechas
-        '
-        Me.btn_fechas.Caption = "X Fechas"
-        Me.btn_fechas.Glyph = Global.TechSoft.My.Resources.Resources.icon_sales_period_month_16
-        Me.btn_fechas.Id = 56
-        Me.btn_fechas.LargeGlyph = Global.TechSoft.My.Resources.Resources.icon_sales_period_lifetime_32
-        Me.btn_fechas.Name = "btn_fechas"
-        '
-        'btn_estado
-        '
-        Me.btn_estado.Caption = "X Estado"
-        Me.btn_estado.Glyph = Global.TechSoft.My.Resources.Resources.icon_show_product_img_16
-        Me.btn_estado.Id = 57
-        Me.btn_estado.LargeGlyph = Global.TechSoft.My.Resources.Resources.icon_show_product_img_32
-        Me.btn_estado.Name = "btn_estado"
-        '
-        'btn_cliente
-        '
-        Me.btn_cliente.Caption = "X Cliente"
-        Me.btn_cliente.Glyph = Global.TechSoft.My.Resources.Resources.icon_card_16
-        Me.btn_cliente.Id = 58
-        Me.btn_cliente.LargeGlyph = Global.TechSoft.My.Resources.Resources.icon_card_32
-        Me.btn_cliente.Name = "btn_cliente"
-        '
         'RibbonPage1
         '
         Me.RibbonPage1.ContextSpecifier = Me.DocumentViewerRibbonController1
@@ -1389,14 +1360,14 @@ Partial Class Contenedor
         Me.PrintPreviewRibbonPageGroup3.ItemLinks.Add(Me.PrintPreviewBarItem28)
         Me.PrintPreviewRibbonPageGroup3.Kind = DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroupKind.PageSetup
         Me.PrintPreviewRibbonPageGroup3.Name = "PrintPreviewRibbonPageGroup3"
-        SuperToolTip49.FixedTooltipWidth = True
-        ToolTipTitleItem49.Text = "Configurar Página"
-        ToolTipItem49.LeftIndent = 6
-        ToolTipItem49.Text = "Mostrar la ventana de Configuración de Página."
-        SuperToolTip49.Items.Add(ToolTipTitleItem49)
-        SuperToolTip49.Items.Add(ToolTipItem49)
-        SuperToolTip49.MaxWidth = 210
-        Me.PrintPreviewRibbonPageGroup3.SuperTip = SuperToolTip49
+        SuperToolTip98.FixedTooltipWidth = True
+        ToolTipTitleItem98.Text = "Configurar Página"
+        ToolTipItem98.LeftIndent = 6
+        ToolTipItem98.Text = "Mostrar la ventana de Configuración de Página."
+        SuperToolTip98.Items.Add(ToolTipTitleItem98)
+        SuperToolTip98.Items.Add(ToolTipItem98)
+        SuperToolTip98.MaxWidth = 210
+        Me.PrintPreviewRibbonPageGroup3.SuperTip = SuperToolTip98
         Me.PrintPreviewRibbonPageGroup3.Text = "Configurar Página"
         '
         'PrintPreviewRibbonPageGroup4
@@ -1477,23 +1448,22 @@ Partial Class Contenedor
         Me.RibbonStatusBar1.ItemLinks.Add(Me.BarButtonItem1)
         Me.RibbonStatusBar1.ItemLinks.Add(Me.PrintPreviewStaticItem2)
         Me.RibbonStatusBar1.ItemLinks.Add(Me.ZoomTrackBarEditItem1)
-        Me.RibbonStatusBar1.Location = New System.Drawing.Point(0, 722)
+        Me.RibbonStatusBar1.Location = New System.Drawing.Point(0, 537)
         Me.RibbonStatusBar1.Name = "RibbonStatusBar1"
         Me.RibbonStatusBar1.Ribbon = Me.RibbonControl1
-        Me.RibbonStatusBar1.Size = New System.Drawing.Size(849, 27)
+        Me.RibbonStatusBar1.Size = New System.Drawing.Size(1020, 27)
         '
-        'Contenedor
+        'ContenedorReportEstados
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(849, 749)
+        Me.ClientSize = New System.Drawing.Size(1020, 564)
         Me.Controls.Add(Me.DocumentViewer1)
         Me.Controls.Add(Me.RibbonStatusBar1)
         Me.Controls.Add(Me.RibbonControl1)
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "Contenedor"
+        Me.Name = "ContenedorReportEstados"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Reporte Rango de Fechas"
+        Me.Text = "Reporte Estados"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.DocumentViewerRibbonController1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RibbonControl1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1573,7 +1543,4 @@ Partial Class Contenedor
     Friend WithEvents PrintPreviewRibbonPageGroup7 As DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup
     Friend WithEvents PrintPreviewRibbonPageGroup8 As DevExpress.XtraPrinting.Preview.PrintPreviewRibbonPageGroup
     Friend WithEvents RibbonStatusBar1 As DevExpress.XtraBars.Ribbon.RibbonStatusBar
-    Friend WithEvents btn_fechas As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents btn_estado As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents btn_cliente As DevExpress.XtraBars.BarButtonItem
 End Class
